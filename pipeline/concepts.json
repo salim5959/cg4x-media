@@ -1,0 +1,3441 @@
+[
+ {
+  "id": "C001",
+  "category": "acquisition",
+  "title": "Voiture d'occasion : 1 mois pour faire la carte grise",
+  "desc": "Vous venez d'acheter une voiture d'occasion ? Vous avez 1 mois à partir de la date de vente pour mettre la carte grise à votre nom. Préparez la carte grise barrée, le certificat de cession, un justificatif de domicile et votre permis.",
+  "tags": [
+   "voitureoccasion",
+   "changementdetitulaire",
+   "achatvoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vous avez *1 mois*, pas un jour de plus",
+    "icon": "calendar",
+    "voice": "Vous venez d'acheter une voiture d'occasion ? Vous avez un mois, pas un jour de plus.",
+    "kicker": "Voiture d'occasion"
+   },
+   {
+    "type": "point",
+    "title": "Le délai démarre à la *vente*",
+    "text": "Un mois à compter de la date inscrite sur le certificat de cession.",
+    "icon": "doc",
+    "voice": "Le délai démarre à la date de la vente, inscrite sur le certificat de cession.",
+    "n": "1"
+   },
+   {
+    "type": "list",
+    "title": "Préparez *4 documents*",
+    "items": [
+     "Carte grise barrée et signée",
+     "Certificat de cession",
+     "Justificatif de domicile",
+     "Permis de conduire"
+    ],
+    "voice": "Préparez la carte grise barrée, le certificat de cession, un justificatif de domicile et votre permis."
+   },
+   {
+    "type": "cta",
+    "big": "Faites-la *en ligne* aujourd'hui",
+    "sub": "Prix calculé selon votre département",
+    "voice": "Calculez votre prix et faites la démarche sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C002",
+  "category": "acquisition",
+  "title": "Même voiture, prix différent selon la région",
+  "desc": "Même voiture, même puissance, et pourtant pas le même prix de carte grise. Pour une 5 CV en 2026 : 344,75 € de taxe régionale en Île-de-France contre 215 € en Hauts-de-France (hors taxes fixes). Le tarif dépend du prix du cheval fiscal dans votre région.",
+  "tags": [
+   "prixcartegrise",
+   "chevalfiscal",
+   "iledefrance",
+   "hautsdefrance"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Même voiture, *130 € d'écart*",
+    "icon": "map",
+    "voice": "Même voiture, même puissance. Pourtant, cent trente euros d'écart sur la carte grise.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "stat",
+    "value": "344,75 €",
+    "label": "Taxe régionale d'une *5 CV* en Île-de-France",
+    "icon": "euro",
+    "voice": "En Île-de-France, la taxe régionale d'une cinq chevaux coûte trois cent quarante-quatre euros soixante-quinze."
+   },
+   {
+    "type": "stat",
+    "value": "215 €",
+    "label": "La même *5 CV* en Hauts-de-France",
+    "icon": "euro",
+    "voice": "En Hauts-de-France, la même voiture coûte deux cent quinze euros."
+   },
+   {
+    "type": "point",
+    "title": "Pourquoi ?",
+    "text": "Chaque région fixe le prix du cheval fiscal : de 30 € à 68,95 € en 2026.",
+    "icon": "map",
+    "voice": "Chaque région fixe son prix du cheval fiscal, de trente à soixante-huit euros quatre-vingt-quinze.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Votre prix *exact* en 30 secondes",
+    "sub": "Selon votre département et votre véhicule",
+    "voice": "Calculez votre prix exact sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C003",
+  "category": "acquisition",
+  "title": "Comment est calculé le prix d'une carte grise",
+  "desc": "Le prix d'une carte grise, c'est une formule simple : chevaux fiscaux × prix du cheval dans votre région, plus la taxe fixe Y.4 (11 €) et la redevance d'acheminement Y.5 (2,76 €). Un malus peut s'ajouter selon le véhicule.",
+  "tags": [
+   "prixcartegrise",
+   "chevalfiscal",
+   "taxe"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le prix de la carte grise, *décodé*",
+    "icon": "euro",
+    "voice": "Le prix d'une carte grise, ce n'est pas un mystère. Voici la formule.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "*Chevaux fiscaux* × prix régional",
+    "text": "La puissance fiscale (case P.6) multipliée par le tarif du cheval de votre région.",
+    "icon": "car",
+    "voice": "D'abord, vos chevaux fiscaux, multipliés par le prix du cheval dans votre région.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "+ *11 €* de taxe fixe",
+    "text": "La taxe Y.4, identique partout en France.",
+    "icon": "doc",
+    "voice": "Ensuite, onze euros de taxe fixe.",
+    "n": "2"
+   },
+   {
+    "type": "point",
+    "title": "+ *2,76 €* d'acheminement",
+    "text": "La redevance Y.5 pour l'envoi sécurisé du titre.",
+    "icon": "house",
+    "voice": "Et deux euros soixante-seize pour l'envoi du titre.",
+    "n": "3"
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C004",
+  "category": "acquisition",
+  "title": "Voiture de plus de 10 ans : la taxe régionale divisée par 2",
+  "desc": "Votre voiture a plus de 10 ans ? La taxe régionale de la carte grise est réduite de 50 %. Exemple en 2026 : une 6 CV en Bretagne passe de 360 € à 180 € de taxe régionale (hors taxes fixes).",
+  "tags": [
+   "voitureoccasion",
+   "prixcartegrise",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Plus de 10 ans ? *-50 %*",
+    "icon": "car",
+    "voice": "Votre voiture a plus de dix ans ? Bonne nouvelle pour la carte grise.",
+    "kicker": "Bon à savoir"
+   },
+   {
+    "type": "stat",
+    "value": "-50 %",
+    "label": "Sur la *taxe régionale* au-delà de 10 ans",
+    "icon": "euro",
+    "voice": "La taxe régionale est réduite de moitié."
+   },
+   {
+    "type": "versus",
+    "title": "Exemple : 6 CV en Bretagne",
+    "left": [
+     "Moins de 10 ans",
+     "6 × 60 € = 360 € de taxe régionale"
+    ],
+    "right": [
+     "Plus de 10 ans",
+     "180 € de taxe régionale"
+    ],
+    "voice": "Une six chevaux en Bretagne passe de trois cent soixante à cent quatre-vingts euros."
+   },
+   {
+    "type": "cta",
+    "big": "Vérifiez *votre* réduction",
+    "sub": "Calcul automatique selon la date de 1re immatriculation",
+    "voice": "Vérifiez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C005",
+  "category": "acquisition",
+  "title": "Avant de payer le vendeur : les 5 documents à récupérer",
+  "desc": "Avant de payer une voiture d'occasion, récupérez : la carte grise barrée et signée, le certificat de cession, le code de cession, le contrôle technique de moins de 6 mois (véhicule de plus de 4 ans) et le certificat de situation administrative.",
+  "tags": [
+   "voitureoccasion",
+   "achatvoiture",
+   "checklist"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "N'achetez *pas* avant d'avoir ces 5 papiers",
+    "icon": "warn",
+    "voice": "Ne payez jamais une voiture d'occasion avant d'avoir ces cinq papiers.",
+    "kicker": "Achat d'occasion"
+   },
+   {
+    "type": "list",
+    "title": "La *checklist* acheteur",
+    "items": [
+     "Carte grise barrée et signée",
+     "Certificat de cession",
+     "Code de cession",
+     "Contrôle technique de moins de 6 mois",
+     "Certificat de situation administrative"
+    ],
+    "voice": "La carte grise barrée, le certificat de cession, le code de cession, un contrôle technique de moins de six mois, et le certificat de situation administrative."
+   },
+   {
+    "type": "point",
+    "title": "Sans eux, *dossier bloqué*",
+    "text": "Un document manquant et la carte grise ne peut pas être faite à votre nom.",
+    "icon": "cross",
+    "voice": "Sans eux, impossible de mettre la carte grise à votre nom.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "On vérifie *votre dossier*",
+    "sub": "Avant la saisie de la demande",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C006",
+  "category": "acquisition",
+  "title": "Le code de cession, c'est quoi ?",
+  "desc": "Le code de cession est remis par le vendeur une fois sa déclaration de cession faite. Il permet à l'acheteur de faire la carte grise à son nom. Pensez à le demander le jour de la vente.",
+  "tags": [
+   "codedecession",
+   "voitureoccasion",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le *code de cession*, vous l'avez ?",
+    "icon": "key",
+    "voice": "Vous achetez une voiture d'occasion. Avez-vous pensé au code de cession ?",
+    "kicker": "Question piège"
+   },
+   {
+    "type": "point",
+    "title": "Un code donné par le *vendeur*",
+    "text": "Il l'obtient en déclarant la vente de son véhicule.",
+    "icon": "swap",
+    "voice": "C'est le vendeur qui l'obtient, en déclarant la vente.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Indispensable pour *l'acheteur*",
+    "text": "Il permet de mettre la carte grise à votre nom.",
+    "icon": "doc",
+    "voice": "Sans lui, impossible de faire la carte grise à votre nom.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Réflexe : le demander *le jour J*",
+    "text": null,
+    "icon": "check",
+    "voice": "Le bon réflexe : le demander le jour de la vente.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C007",
+  "category": "acquisition",
+  "title": "Contrôle technique : moins de 6 mois pour vendre",
+  "desc": "Pour vendre une voiture de plus de 4 ans, le contrôle technique doit dater de moins de 6 mois au moment de la vente. Sans lui, la carte grise ne peut pas être faite au nom de l'acheteur.",
+  "tags": [
+   "controletechnique",
+   "voitureoccasion",
+   "vendresavoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Contrôle technique *de plus de 6 mois* ?",
+    "icon": "clock",
+    "voice": "Votre contrôle technique a plus de six mois ? Attention si vous achetez ou vendez.",
+    "kicker": "Achat ou vente"
+   },
+   {
+    "type": "stat",
+    "value": "6 mois",
+    "label": "Durée de validité du CT *pour une vente*",
+    "icon": "calendar",
+    "voice": "Pour une vente, il doit dater de moins de six mois."
+   },
+   {
+    "type": "point",
+    "title": "Pour les véhicules de *plus de 4 ans*",
+    "text": "Le procès-verbal est obligatoire dans le dossier de carte grise.",
+    "icon": "car",
+    "voice": "C'est obligatoire pour les véhicules de plus de quatre ans.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C008",
+  "category": "acquisition",
+  "title": "Certificat de situation administrative : à vérifier avant d'acheter",
+  "desc": "Avant d'acheter une voiture d'occasion, demandez le certificat de situation administrative. Il indique si le véhicule est gagé ou fait l'objet d'une opposition, ce qui peut bloquer la carte grise.",
+  "tags": [
+   "nongage",
+   "voitureoccasion",
+   "achatvoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Voiture *gagée* = carte grise bloquée",
+    "icon": "warn",
+    "voice": "Une voiture gagée, et votre carte grise peut être bloquée.",
+    "kicker": "Achat d'occasion"
+   },
+   {
+    "type": "point",
+    "title": "Demandez le *certificat de situation administrative*",
+    "text": "L'ancien « certificat de non-gage ».",
+    "icon": "doc",
+    "voice": "Demandez le certificat de situation administrative, l'ancien certificat de non-gage.",
+    "n": null
+   },
+   {
+    "type": "list",
+    "title": "Il vous dit si",
+    "items": [
+     "Le véhicule est gagé",
+     "Une opposition existe",
+     "Le véhicule est déclaré volé"
+    ],
+    "voice": "Il indique si la voiture est gagée, si une opposition existe, ou si elle est déclarée volée."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C009",
+  "category": "acquisition",
+  "title": "Les régions où la carte grise coûte le moins cher en 2026",
+  "desc": "Prix du cheval fiscal en 2026 : 30 € à Mayotte, 41 € en Guadeloupe, 43 € en Auvergne-Rhône-Alpes et en Hauts-de-France. Plusieurs régions appliquent le plafond légal de 60 €.",
+  "tags": [
+   "prixcartegrise",
+   "chevalfiscal",
+   "regions"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Où la carte grise coûte *le moins cher* ?",
+    "icon": "map",
+    "voice": "Où la carte grise coûte-t-elle le moins cher en 2026 ?",
+    "kicker": "Tarifs 2026"
+   },
+   {
+    "type": "list",
+    "title": "Le cheval fiscal *le moins cher*",
+    "items": [
+     "Mayotte : 30 €",
+     "Guadeloupe : 41 €",
+     "Auvergne-Rhône-Alpes : 43 €",
+     "Hauts-de-France : 43 €"
+    ],
+    "voice": "Mayotte à trente euros, la Guadeloupe à quarante et un, l'Auvergne-Rhône-Alpes et les Hauts-de-France à quarante-trois."
+   },
+   {
+    "type": "point",
+    "title": "Le plafond : *60 €*",
+    "text": "Bretagne, Grand Est, Normandie, PACA et d'autres y sont.",
+    "icon": "euro",
+    "voice": "Plusieurs régions sont au plafond de soixante euros.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Le prix de *votre* département",
+    "sub": "Tarifs 2026 mis à jour",
+    "voice": "Calculez le prix dans votre département sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C010",
+  "category": "acquisition",
+  "title": "Île-de-France : 68,95 € le cheval fiscal en 2026",
+  "desc": "En Île-de-France, depuis 2026, une majoration de 14 € par cheval s'ajoute au tarif régional de 54,95 €, soit 68,95 € par cheval fiscal. Pour une 5 CV : 344,75 € de taxe régionale.",
+  "tags": [
+   "iledefrance",
+   "paris",
+   "prixcartegrise",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Île-de-France : la carte grise *la plus chère*",
+    "icon": "map",
+    "voice": "En Île-de-France, la carte grise a augmenté en 2026.",
+    "kicker": "Tarifs 2026"
+   },
+   {
+    "type": "stat",
+    "value": "68,95 €",
+    "label": "Le cheval fiscal en *Île-de-France*",
+    "icon": "euro",
+    "voice": "Le cheval fiscal y coûte soixante-huit euros quatre-vingt-quinze."
+   },
+   {
+    "type": "point",
+    "title": "54,95 € + *14 €* de majoration",
+    "text": "Une majoration s'ajoute depuis 2026.",
+    "icon": "doc",
+    "voice": "Cinquante-quatre euros quatre-vingt-quinze, plus quatorze euros de majoration.",
+    "n": null
+   },
+   {
+    "type": "stat",
+    "value": "344,75 €",
+    "label": "Taxe régionale d'une *5 CV*",
+    "icon": "car",
+    "voice": "Pour une cinq chevaux, cela fait trois cent quarante-quatre euros soixante-quinze."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C011",
+  "category": "acquisition",
+  "title": "Corse : le cheval fiscal passe de 43 à 53 €",
+  "desc": "Plus forte hausse de France en 2026 : en Corse, le cheval fiscal est passé de 43 € à 53 € au 1er mars 2026.",
+  "tags": [
+   "corse",
+   "prixcartegrise",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Corse : *+10 €* par cheval",
+    "icon": "map",
+    "voice": "En Corse, la carte grise a pris dix euros par cheval.",
+    "kicker": "Tarifs 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Prix du cheval fiscal",
+    "left": [
+     "Avant mars 2026",
+     "43 €"
+    ],
+    "right": [
+     "Depuis le 1er mars 2026",
+     "53 €"
+    ],
+    "voice": "Quarante-trois euros avant mars deux mille vingt-six, cinquante-trois euros depuis."
+   },
+   {
+    "type": "stat",
+    "value": "+50 €",
+    "label": "Sur la taxe régionale d'une *5 CV*",
+    "icon": "euro",
+    "voice": "Pour une cinq chevaux, cinquante euros de plus."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C012",
+  "category": "acquisition",
+  "title": "Où trouver la puissance fiscale sur la carte grise",
+  "desc": "La puissance fiscale (en chevaux) est indiquée case P.6 de la carte grise. C'est elle qui sert au calcul du prix.",
+  "tags": [
+   "chevalfiscal",
+   "cartegrise",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vos *chevaux fiscaux*, où les trouver ?",
+    "icon": "doc",
+    "voice": "Combien de chevaux fiscaux a votre voiture ? La réponse est sur la carte grise.",
+    "kicker": "Astuce"
+   },
+   {
+    "type": "stat",
+    "value": "P.6",
+    "label": "La case de la *puissance fiscale*",
+    "icon": "doc",
+    "voice": "Regardez la case P point six."
+   },
+   {
+    "type": "point",
+    "title": "C'est elle qui fixe *le prix*",
+    "text": "Puissance fiscale × prix du cheval de votre région.",
+    "icon": "euro",
+    "voice": "C'est elle qui sert à calculer le prix.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C013",
+  "category": "acquisition",
+  "title": "Acheter à un particulier : 4 réflexes",
+  "desc": "Achat d'une voiture à un particulier : vérifiez l'identité du vendeur sur la carte grise, le numéro VIN (case E), le certificat de situation administrative et le contrôle technique.",
+  "tags": [
+   "voitureoccasion",
+   "achatvoiture",
+   "leboncoin"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Achat entre particuliers : *4 réflexes*",
+    "icon": "car",
+    "voice": "Vous achetez une voiture à un particulier ? Quatre réflexes.",
+    "kicker": "Avant de signer"
+   },
+   {
+    "type": "steps",
+    "title": "Avant de signer",
+    "items": [
+     "Le nom du vendeur = celui de la carte grise",
+     "Le VIN (case E) = celui du véhicule",
+     "Pas de gage ni d'opposition",
+     "Contrôle technique de moins de 6 mois"
+    ],
+    "voice": "Le vendeur est bien le titulaire. Le numéro de série correspond. Pas de gage. Et un contrôle technique récent."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C014",
+  "category": "acquisition",
+  "title": "Utilitaire : la taxe Y.2 de 34 €",
+  "desc": "Vous achetez une camionnette (CTTE) de 3,5 t maximum ? Une taxe Y.2 de 34 € (formation professionnelle) s'ajoute au prix de la carte grise.",
+  "tags": [
+   "utilitaire",
+   "artisan",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Utilitaire ? Une taxe *en plus*",
+    "icon": "car",
+    "voice": "Vous achetez un utilitaire ? Une taxe s'ajoute à la carte grise.",
+    "kicker": "Pros et artisans"
+   },
+   {
+    "type": "stat",
+    "value": "34 €",
+    "label": "Taxe *Y.2* pour une camionnette jusqu'à 3,5 t",
+    "icon": "euro",
+    "voice": "Trente-quatre euros de taxe Y deux, pour une camionnette jusqu'à trois tonnes et demie."
+   },
+   {
+    "type": "point",
+    "title": "Elle s'ajoute *au reste*",
+    "text": "Taxe régionale + Y.4 + Y.5 + Y.2.",
+    "icon": "doc",
+    "voice": "Elle s'ajoute à la taxe régionale et aux taxes fixes.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C015",
+  "category": "acquisition",
+  "title": "Ce qui fait varier le prix de votre carte grise",
+  "desc": "5 éléments font varier le prix d'une carte grise : la région, la puissance fiscale, l'âge du véhicule, son type et un éventuel malus.",
+  "tags": [
+   "prixcartegrise",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Pourquoi *votre* carte grise coûte ce prix ?",
+    "icon": "question",
+    "voice": "Pourquoi votre carte grise coûte ce prix-là ?",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "*5 critères*",
+    "items": [
+     "Votre région",
+     "La puissance fiscale",
+     "L'âge du véhicule",
+     "Le type de véhicule",
+     "Un éventuel malus"
+    ],
+    "voice": "La région. La puissance fiscale. L'âge du véhicule. Son type. Et un éventuel malus."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C016",
+  "category": "acquisition",
+  "title": "Qui paie la carte grise : l'acheteur ou le vendeur ?",
+  "desc": "Lors d'une vente entre particuliers, c'est l'acheteur qui fait la carte grise à son nom et qui paie les taxes. Le vendeur, lui, déclare la cession dans les 15 jours.",
+  "tags": [
+   "voitureoccasion",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise : *qui paie* ?",
+    "icon": "question",
+    "voice": "Vente de voiture : qui paie la carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Le vendeur",
+     "Déclare la cession dans les 15 jours"
+    ],
+    "right": [
+     "L'acheteur",
+     "Fait et paie la carte grise à son nom"
+    ],
+    "voice": "Le vendeur déclare la vente. L'acheteur fait et paie la nouvelle carte grise."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C017",
+  "category": "acquisition",
+  "title": "Le certificat provisoire pour rouler tout de suite",
+  "desc": "Dès que votre demande est enregistrée, un certificat provisoire vous permet de rouler en France en attendant votre carte grise définitive.",
+  "tags": [
+   "cartegrise",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Rouler *avant* de recevoir la carte grise ?",
+    "icon": "car",
+    "voice": "Vous pouvez rouler avant de recevoir votre carte grise.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Le *certificat provisoire*",
+    "text": "Remis dès l'enregistrement de votre demande.",
+    "icon": "doc",
+    "voice": "Grâce au certificat provisoire, remis dès l'enregistrement de votre demande.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Valable en *France*",
+    "text": "En attendant le titre définitif envoyé chez vous.",
+    "icon": "house",
+    "voice": "Il est valable en France, en attendant la carte grise envoyée chez vous.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C018",
+  "category": "acquisition",
+  "title": "Première voiture : la checklist carte grise",
+  "desc": "Première voiture ? Pour la carte grise, il vous faut : une pièce d'identité, votre permis, un justificatif de domicile de moins de 6 mois, la carte grise barrée, le certificat de cession et le code de cession.",
+  "tags": [
+   "premierevoiture",
+   "jeuneconducteur",
+   "permis"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Première voiture ? *La checklist*",
+    "icon": "key",
+    "voice": "Première voiture ? Voici la checklist pour la carte grise.",
+    "kicker": "Jeune conducteur"
+   },
+   {
+    "type": "list",
+    "title": "Côté *vous*",
+    "items": [
+     "Pièce d'identité",
+     "Permis de conduire",
+     "Justificatif de domicile de moins de 6 mois"
+    ],
+    "voice": "De votre côté : une pièce d'identité, le permis, et un justificatif de domicile récent."
+   },
+   {
+    "type": "list",
+    "title": "Côté *vendeur*",
+    "items": [
+     "Carte grise barrée et signée",
+     "Certificat de cession",
+     "Code de cession"
+    ],
+    "voice": "Du côté du vendeur : la carte grise barrée, le certificat de cession, et le code de cession."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C019",
+  "category": "acquisition",
+  "title": "7 CV en PACA : combien coûte la carte grise ?",
+  "desc": "Exemple 2026 : une 7 CV de moins de 10 ans en Provence-Alpes-Côte d'Azur = 7 × 60 € = 420 € de taxe régionale, plus 13,76 € de taxes fixes, soit 433,76 € de taxes.",
+  "tags": [
+   "paca",
+   "marseille",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "7 CV en PACA : *combien* ?",
+    "icon": "car",
+    "voice": "Une sept chevaux en Provence-Alpes-Côte d'Azur, combien coûte la carte grise ?",
+    "kicker": "Exemple 2026"
+   },
+   {
+    "type": "steps",
+    "title": "Le calcul",
+    "items": [
+     "7 CV × 60 € = 420 €",
+     "+ 11 € de taxe fixe",
+     "+ 2,76 € d'acheminement"
+    ],
+    "voice": "Sept fois soixante euros, plus onze euros, plus deux euros soixante-seize."
+   },
+   {
+    "type": "stat",
+    "value": "433,76 €",
+    "label": "De taxes pour une *7 CV* de moins de 10 ans",
+    "icon": "euro",
+    "voice": "Soit quatre cent trente-trois euros soixante-seize de taxes."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C020",
+  "category": "acquisition",
+  "title": "Hauts-de-France : 43 € le cheval fiscal",
+  "desc": "En Hauts-de-France, le cheval fiscal est passé de 42 € à 43 € au 1er avril 2026 : à égalité avec Auvergne-Rhône-Alpes pour le tarif le plus bas de métropole.",
+  "tags": [
+   "hautsdefrance",
+   "lille",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Hauts-de-France : *parmi les moins chers*",
+    "icon": "map",
+    "voice": "Vous habitez dans les Hauts-de-France ? Votre carte grise est parmi les moins chères.",
+    "kicker": "Tarifs 2026"
+   },
+   {
+    "type": "stat",
+    "value": "43 €",
+    "label": "Le cheval fiscal depuis le *1er avril 2026*",
+    "icon": "euro",
+    "voice": "Le cheval fiscal y coûte quarante-trois euros depuis avril deux mille vingt-six."
+   },
+   {
+    "type": "stat",
+    "value": "215 €",
+    "label": "Taxe régionale d'une *5 CV*",
+    "icon": "car",
+    "voice": "Soit deux cent quinze euros pour une cinq chevaux."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C021",
+  "category": "acquisition",
+  "title": "Carte grise moto : même démarche qu'une voiture",
+  "desc": "Vous achetez une moto d'occasion ? La démarche de changement de titulaire est la même que pour une voiture : 1 mois, certificat de cession, carte grise barrée.",
+  "tags": [
+   "moto",
+   "motooccasion",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Une *moto* d'occasion ?",
+    "icon": "moto",
+    "voice": "Vous achetez une moto d'occasion ? La carte grise suit les mêmes règles.",
+    "kicker": "Motards"
+   },
+   {
+    "type": "list",
+    "title": "Les *mêmes règles*",
+    "items": [
+     "1 mois pour la faire à votre nom",
+     "Certificat de cession",
+     "Carte grise barrée et signée"
+    ],
+    "voice": "Un mois pour la faire à votre nom, le certificat de cession, et la carte grise barrée."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C022",
+  "category": "acquisition",
+  "title": "Achat en fin de mois : calculez bien votre délai",
+  "desc": "Achetée le 31 octobre ? Le délai d'un mois court à partir de la date de vente indiquée sur le certificat de cession. Ne le laissez pas filer.",
+  "tags": [
+   "voitureoccasion",
+   "delai"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Achetée le *31* ? Attention",
+    "icon": "calendar",
+    "voice": "Vous avez acheté votre voiture en fin de mois ? Attention au délai.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Le compteur part de la *date de vente*",
+    "text": "Celle inscrite sur le certificat de cession.",
+    "icon": "doc",
+    "voice": "Le délai d'un mois commence à la date inscrite sur le certificat de cession.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Faites-la *dès la première semaine*",
+    "text": "Vous gardez de la marge en cas de pièce manquante.",
+    "icon": "check",
+    "voice": "Le bon réflexe : faites-la dès la première semaine.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C023",
+  "category": "acquisition",
+  "title": "Le vendeur n'a pas déclaré la cession : que faire ?",
+  "desc": "Sans déclaration de cession, pas de code de cession. Demandez au vendeur de déclarer la vente : c'est une obligation dans les 15 jours.",
+  "tags": [
+   "codedecession",
+   "voitureoccasion",
+   "declarationdecession"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Pas de *code de cession* ?",
+    "icon": "key",
+    "voice": "Le vendeur ne vous a pas donné de code de cession ?",
+    "kicker": "Problème fréquent"
+   },
+   {
+    "type": "point",
+    "title": "Le vendeur doit *déclarer la vente*",
+    "text": "C'est obligatoire, dans les 15 jours.",
+    "icon": "swap",
+    "voice": "Il doit déclarer la vente. C'est obligatoire, dans les quinze jours.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Le code arrive *ensuite*",
+    "text": "Il vous le transmet pour votre carte grise.",
+    "icon": "check",
+    "voice": "Le code de cession arrive ensuite, et il vous le transmet.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C024",
+  "category": "acquisition",
+  "title": "Voiture importée : les pièces en plus",
+  "desc": "Une voiture achetée à l'étranger demande des pièces supplémentaires pour l'immatriculation en France, notamment le quitus fiscal et un justificatif de conformité.",
+  "tags": [
+   "import",
+   "voitureimportee",
+   "allemagne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Voiture achetée *à l'étranger* ?",
+    "icon": "plate",
+    "voice": "Vous avez acheté votre voiture à l'étranger ?",
+    "kicker": "Import"
+   },
+   {
+    "type": "list",
+    "title": "Des pièces *en plus*",
+    "items": [
+     "Quitus fiscal",
+     "Justificatif de conformité",
+     "Carte grise étrangère"
+    ],
+    "voice": "Il faut des pièces en plus : le quitus fiscal, un justificatif de conformité, et la carte grise étrangère."
+   },
+   {
+    "type": "cta",
+    "big": "Immatriculation *import*",
+    "sub": "On vous indique les pièces selon votre cas",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C025",
+  "category": "acquisition",
+  "title": "Électrique : le tarif dépend de la région",
+  "desc": "Carte grise d'une voiture électrique : l'exonération n'est plus automatique partout, chaque région fixe sa règle. Vérifiez le tarif de votre département avant d'acheter.",
+  "tags": [
+   "voitureelectrique",
+   "electrique",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Électrique : carte grise *gratuite* ?",
+    "icon": "car",
+    "voice": "Une voiture électrique, la carte grise est gratuite ? Plus forcément.",
+    "kicker": "Électrique"
+   },
+   {
+    "type": "point",
+    "title": "Chaque *région* décide",
+    "text": "Exonération totale, partielle, ou tarif plein.",
+    "icon": "map",
+    "voice": "Aujourd'hui, chaque région décide de sa règle.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Vérifiez *avant d'acheter*",
+    "text": null,
+    "icon": "check",
+    "voice": "Vérifiez le tarif avant d'acheter.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Le tarif *électrique* chez vous",
+    "sub": "Selon votre département",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C026",
+  "category": "acquisition",
+  "title": "Combien de chevaux fiscaux a votre voiture ?",
+  "desc": "Citadine, compacte, SUV : la puissance fiscale change tout au prix de la carte grise. Une citadine est souvent autour de 4 à 5 CV, un SUV peut dépasser 7 CV. Vérifiez la case P.6.",
+  "tags": [
+   "chevalfiscal",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Chaque *cheval* se paie",
+    "icon": "car",
+    "voice": "Sur une carte grise, chaque cheval fiscal se paie.",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": "À 60 € le cheval",
+    "left": [
+     "Citadine 4 CV",
+     "240 € de taxe régionale"
+    ],
+    "right": [
+     "SUV 8 CV",
+     "480 € de taxe régionale"
+    ],
+    "voice": "À soixante euros le cheval, une quatre chevaux paie deux cent quarante euros, une huit chevaux quatre cent quatre-vingts."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C027",
+  "category": "acquisition",
+  "title": "Déménagement + achat de voiture : une seule démarche",
+  "desc": "Vous déménagez et achetez une voiture en même temps ? La nouvelle carte grise est faite directement à votre nouvelle adresse.",
+  "tags": [
+   "demenagement",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Nouvelle maison *et* nouvelle voiture ?",
+    "icon": "house",
+    "voice": "Vous déménagez et vous achetez une voiture en même temps ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Une seule *carte grise*",
+    "text": "Faite directement à votre nouvelle adresse.",
+    "icon": "doc",
+    "voice": "Une seule carte grise, faite directement à votre nouvelle adresse.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Le tarif : celui de votre *nouveau département*",
+    "text": null,
+    "icon": "map",
+    "voice": "Avec le tarif de votre nouveau département.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C028",
+  "category": "acquisition",
+  "title": "Acheter une voiture : le budget oublié",
+  "desc": "Prix de la voiture, assurance, plein... et la carte grise. Pensez à l'intégrer à votre budget dès le départ : selon la région et la puissance, elle peut dépasser 400 €.",
+  "tags": [
+   "budget",
+   "voitureoccasion",
+   "achatvoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le coût que *tout le monde oublie*",
+    "icon": "euro",
+    "voice": "Quand on achète une voiture, il y a un coût que tout le monde oublie.",
+    "kicker": "Budget voiture"
+   },
+   {
+    "type": "list",
+    "title": "Votre budget",
+    "items": [
+     "Le prix de la voiture",
+     "L'assurance",
+     "Le plein",
+     "✗ La carte grise"
+    ],
+    "voice": "Le prix, l'assurance, le plein, et la carte grise."
+   },
+   {
+    "type": "point",
+    "title": "Elle peut dépasser *400 €*",
+    "text": "Selon votre région et la puissance du véhicule.",
+    "icon": "euro",
+    "voice": "Selon la région et la puissance, elle peut dépasser quatre cents euros.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Connaissez le prix *avant d'acheter*",
+    "sub": "Simulation gratuite",
+    "voice": "Calculez votre prix avant d'acheter sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C029",
+  "category": "pedagogie",
+  "title": "Déclaration de cession : 15 jours pour le vendeur",
+  "desc": "Vous vendez votre voiture ? Vous avez 15 jours pour déclarer la cession. Elle vous protège des amendes et des infractions commises après la vente.",
+  "tags": [
+   "declarationdecession",
+   "vendresavoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vous vendez ? *15 jours* chrono",
+    "icon": "clock",
+    "voice": "Vous vendez votre voiture ? Vous avez quinze jours.",
+    "kicker": "Vendeurs"
+   },
+   {
+    "type": "stat",
+    "value": "15 jours",
+    "label": "Pour *déclarer la cession*",
+    "icon": "calendar",
+    "voice": "Quinze jours pour déclarer la cession."
+   },
+   {
+    "type": "point",
+    "title": "Elle vous *protège*",
+    "text": "Amendes et infractions après la vente ne sont plus pour vous.",
+    "icon": "shield",
+    "voice": "Elle vous protège des amendes reçues après la vente.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Déclarez *votre cession* en ligne",
+    "sub": "Simple et rapide",
+    "voice": "Déclarez votre cession sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C030",
+  "category": "pedagogie",
+  "title": "Certificat de cession : l'heure de la vente compte",
+  "desc": "Sur le certificat de cession, indiquez la date ET l'heure de la vente. Si un excès de vitesse est flashé le jour même, c'est l'heure qui détermine qui était responsable.",
+  "tags": [
+   "certificatdecession",
+   "vendresavoiture",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le détail qui peut vous *coûter un PV*",
+    "icon": "warn",
+    "voice": "Sur le certificat de cession, un détail peut vous coûter une amende.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Notez *l'heure* de la vente",
+    "text": "Pas seulement la date.",
+    "icon": "clock",
+    "voice": "Notez l'heure de la vente, pas seulement la date.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Flash le jour même ?",
+    "text": "L'heure dit qui conduisait : le vendeur ou l'acheteur.",
+    "icon": "car",
+    "voice": "En cas de flash le jour même, l'heure indique qui était responsable.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C031",
+  "category": "pedagogie",
+  "title": "Comment barrer une carte grise",
+  "desc": "Pour vendre votre voiture, barrez la carte grise d'un trait, inscrivez « Vendu le … à … (heure) » et signez.",
+  "tags": [
+   "vendresavoiture",
+   "cartegrise",
+   "tuto"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Barrer sa carte grise : *la bonne méthode*",
+    "icon": "doc",
+    "voice": "Vous vendez votre voiture ? Voici comment barrer la carte grise.",
+    "kicker": "Tuto"
+   },
+   {
+    "type": "steps",
+    "title": "Les 3 gestes",
+    "items": [
+     "Un trait en diagonale",
+     "« Vendu le … à … » avec l'heure",
+     "Votre signature"
+    ],
+    "voice": "Un trait en diagonale. La mention vendu le, à, avec l'heure. Et votre signature."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C032",
+  "category": "pedagogie",
+  "title": "Changement d'adresse : 1 mois pour mettre à jour",
+  "desc": "Vous avez déménagé ? Vous avez 1 mois pour mettre à jour l'adresse de votre carte grise.",
+  "tags": [
+   "demenagement",
+   "changementdadresse"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vous avez *déménagé* ?",
+    "icon": "house",
+    "voice": "Vous avez déménagé récemment ?",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "1 mois",
+    "label": "Pour mettre à jour *l'adresse* de la carte grise",
+    "icon": "calendar",
+    "voice": "Vous avez un mois pour changer l'adresse sur votre carte grise."
+   },
+   {
+    "type": "point",
+    "title": "Sinon, *amende* possible",
+    "text": "Et vos courriers officiels partent à l'ancienne adresse.",
+    "icon": "warn",
+    "voice": "Sinon, une amende est possible, et vos courriers partent à l'ancienne adresse.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Changez *votre adresse* en ligne",
+    "sub": null,
+    "voice": "Changez votre adresse sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C033",
+  "category": "pedagogie",
+  "title": "Changement d'adresse : l'étiquette 3 fois maximum",
+  "desc": "Après un changement d'adresse, vous recevez une étiquette à coller sur la carte grise. Au bout de 3 étiquettes, la 4e adresse donne lieu à une nouvelle carte grise.",
+  "tags": [
+   "changementdadresse",
+   "demenagement"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Changement d'adresse : *une étiquette*",
+    "icon": "doc",
+    "voice": "Quand vous changez d'adresse, vous recevez une simple étiquette.",
+    "kicker": "Bon à savoir"
+   },
+   {
+    "type": "stat",
+    "value": "3",
+    "label": "Étiquettes *maximum* sur une carte grise",
+    "icon": "doc",
+    "voice": "On peut en coller trois au maximum."
+   },
+   {
+    "type": "point",
+    "title": "Au *4e* déménagement",
+    "text": "Une nouvelle carte grise est éditée.",
+    "icon": "house",
+    "voice": "Au quatrième changement, une nouvelle carte grise est éditée.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C034",
+  "category": "pedagogie",
+  "title": "Carte grise perdue ou volée : le duplicata",
+  "desc": "Carte grise perdue ou volée ? Il faut demander un duplicata. En cas de vol, une déclaration de vol est nécessaire.",
+  "tags": [
+   "duplicata",
+   "cartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise *perdue* ?",
+    "icon": "question",
+    "voice": "Vous avez perdu votre carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": "Deux cas",
+    "left": [
+     "Perte",
+     "Déclaration de perte, puis demande de duplicata"
+    ],
+    "right": [
+     "Vol",
+     "Déclaration de vol, puis demande de duplicata"
+    ],
+    "voice": "En cas de perte comme de vol, une déclaration, puis un duplicata."
+   },
+   {
+    "type": "cta",
+    "big": "Demandez *votre duplicata*",
+    "sub": null,
+    "voice": "Faites votre demande sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C035",
+  "category": "pedagogie",
+  "title": "Les 3 cerfa à connaître",
+  "desc": "Les 3 cerfa de la carte grise : 13750 (demande d'immatriculation), 15776 (certificat de cession) et 13757 (mandat d'immatriculation).",
+  "tags": [
+   "cerfa",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*3 cerfa* à connaître",
+    "icon": "doc",
+    "voice": "Carte grise : trois cerfa à connaître.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Les numéros",
+    "items": [
+     "13750 : demande d'immatriculation",
+     "15776 : certificat de cession",
+     "13757 : mandat"
+    ],
+    "voice": "Le treize sept cent cinquante pour la demande. Le quinze sept cent soixante-seize pour la cession. Le treize sept cent cinquante-sept pour le mandat."
+   },
+   {
+    "type": "point",
+    "title": "Bonne nouvelle",
+    "text": "Chez CarteGrise4x, ils sont *pré-remplis*.",
+    "icon": "check",
+    "voice": "Bonne nouvelle : chez nous, ils sont pré-remplis.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C036",
+  "category": "pedagogie",
+  "title": "Le mandat cerfa 13757, à quoi sert-il ?",
+  "desc": "Le mandat (cerfa 13757) autorise un professionnel habilité à faire la démarche de carte grise en votre nom.",
+  "tags": [
+   "cerfa",
+   "mandat"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Pourquoi on vous fait *signer un mandat* ?",
+    "icon": "doc",
+    "voice": "Pourquoi on vous demande de signer un mandat ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Le *cerfa 13757*",
+    "text": "Il autorise un professionnel habilité à agir pour vous.",
+    "icon": "shield",
+    "voice": "Le cerfa treize sept cent cinquante-sept autorise un professionnel habilité à faire la démarche pour vous.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "C'est *obligatoire*",
+    "text": "Pour toute démarche faite par un professionnel.",
+    "icon": "check",
+    "voice": "Il est obligatoire pour toute démarche faite par un professionnel.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C037",
+  "category": "pedagogie",
+  "title": "Justificatif de domicile : moins de 6 mois",
+  "desc": "Pour votre carte grise, le justificatif de domicile doit dater de moins de 6 mois : facture d'énergie, d'internet, avis d'imposition, quittance de loyer d'un professionnel...",
+  "tags": [
+   "justificatif",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre justificatif est *trop vieux* ?",
+    "icon": "house",
+    "voice": "Votre justificatif de domicile est peut-être trop ancien.",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "6 mois",
+    "label": "Âge maximum du *justificatif de domicile*",
+    "icon": "calendar",
+    "voice": "Il doit dater de moins de six mois."
+   },
+   {
+    "type": "list",
+    "title": "Exemples acceptés",
+    "items": [
+     "Facture d'énergie",
+     "Facture internet ou téléphone",
+     "Avis d'imposition"
+    ],
+    "voice": "Une facture d'énergie, d'internet, ou un avis d'imposition."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C038",
+  "category": "pedagogie",
+  "title": "Mythe : « On a 3 mois pour faire la carte grise »",
+  "desc": "Faux ! Après l'achat d'un véhicule d'occasion, vous avez 1 mois, pas 3, pour faire la carte grise à votre nom.",
+  "tags": [
+   "mythe",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "« On a *3 mois* » ?",
+    "icon": "question",
+    "voice": "On a trois mois pour faire sa carte grise ? Vrai ou faux ?",
+    "kicker": "Vrai ou faux"
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Mythe",
+     "3 mois après l'achat"
+    ],
+    "right": [
+     "Réalité",
+     "1 mois après la date de vente"
+    ],
+    "voice": "Faux. Vous avez un mois après la date de vente."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C039",
+  "category": "pedagogie",
+  "title": "Mythe : « C'est au vendeur de faire la carte grise »",
+  "desc": "Faux ! Le vendeur déclare la cession. C'est l'acheteur qui fait la nouvelle carte grise à son nom.",
+  "tags": [
+   "mythe",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "« C'est au *vendeur* de la faire » ?",
+    "icon": "question",
+    "voice": "C'est au vendeur de faire la carte grise ? Vrai ou faux ?",
+    "kicker": "Vrai ou faux"
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Mythe",
+     "Le vendeur fait la carte grise"
+    ],
+    "right": [
+     "Réalité",
+     "L'acheteur la fait à son nom"
+    ],
+    "voice": "Faux. C'est l'acheteur qui fait la carte grise à son nom."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C040",
+  "category": "pedagogie",
+  "title": "Site privé ou site officiel : ce qu'il faut savoir",
+  "desc": "La démarche de carte grise est possible sans frais de service sur le site officiel de France Titres. Un professionnel habilité comme CarteGrise4x propose un accompagnement payant : vérification du dossier et cerfa pré-remplis. Service privé, non affilié à l'ANTS.",
+  "tags": [
+   "transparence",
+   "ants",
+   "francetitres"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Site privé ou officiel : *la vérité*",
+    "icon": "shield",
+    "voice": "Site privé ou site officiel pour sa carte grise ? On vous dit tout.",
+    "kicker": "Transparence"
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Site officiel",
+     "Sans frais de service, vous faites tout vous-même"
+    ],
+    "right": [
+     "CarteGrise4x",
+     "Service payant : dossier vérifié, cerfa pré-remplis"
+    ],
+    "voice": "Sur le site officiel, c'est sans frais de service et vous faites tout vous-même. Chez nous, vous payez un accompagnement."
+   },
+   {
+    "type": "point",
+    "title": "Les *taxes* sont les mêmes",
+    "text": "Fixées par l'État et votre région.",
+    "icon": "euro",
+    "voice": "Les taxes, elles, sont les mêmes partout.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "À vous de *choisir*",
+    "sub": "Service privé, non affilié à l'ANTS",
+    "voice": "À vous de choisir. Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C041",
+  "category": "pedagogie",
+  "title": "Lire sa carte grise : les cases utiles",
+  "desc": "Les cases à connaître : A (immatriculation), B (date de 1re immatriculation), E (numéro VIN), P.6 (puissance fiscale), V.7 (CO2).",
+  "tags": [
+   "cartegrise",
+   "tuto"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre carte grise *décodée*",
+    "icon": "doc",
+    "voice": "Votre carte grise, décodée en quelques secondes.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Les cases utiles",
+    "items": [
+     "A : immatriculation",
+     "B : 1re immatriculation",
+     "E : numéro VIN",
+     "P.6 : puissance fiscale",
+     "V.7 : émissions de CO2"
+    ],
+    "voice": "A, l'immatriculation. B, la première mise en circulation. E, le numéro de série. P six, la puissance fiscale. V sept, le CO2."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C042",
+  "category": "pedagogie",
+  "title": "Le numéro VIN : vérifiez-le avant d'acheter",
+  "desc": "Le numéro VIN (case E de la carte grise) est l'identifiant unique du véhicule. Il doit correspondre à celui gravé sur la voiture.",
+  "tags": [
+   "vin",
+   "voitureoccasion",
+   "arnaque"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le contrôle *anti-arnaque* en 30 s",
+    "icon": "shield",
+    "voice": "Un contrôle anti-arnaque en trente secondes avant d'acheter.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Le *VIN* case E",
+    "text": "17 caractères, uniques à chaque véhicule.",
+    "icon": "doc",
+    "voice": "Le numéro de série, case E, dix-sept caractères uniques.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Comparez-le à *la voiture*",
+    "text": "Souvent visible au pare-brise ou sur le châssis.",
+    "icon": "car",
+    "voice": "Comparez-le à celui de la voiture, souvent visible au pare-brise.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C043",
+  "category": "pedagogie",
+  "title": "Retard de carte grise : jusqu'à 750 € d'amende",
+  "desc": "Ne pas faire la carte grise à son nom dans le mois est une contravention de 4e classe : 135 € d'amende forfaitaire, jusqu'à 750 €.",
+  "tags": [
+   "amende",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise en retard ? *Jusqu'à 750 €*",
+    "icon": "warn",
+    "voice": "Carte grise pas faite dans le mois ? Attention à l'amende.",
+    "kicker": "Amende"
+   },
+   {
+    "type": "stat",
+    "value": "135 €",
+    "label": "Amende *forfaitaire* (4e classe)",
+    "icon": "euro",
+    "voice": "L'amende forfaitaire est de cent trente-cinq euros."
+   },
+   {
+    "type": "stat",
+    "value": "750 €",
+    "label": "Montant *maximum*",
+    "icon": "warn",
+    "voice": "Elle peut monter jusqu'à sept cent cinquante euros."
+   },
+   {
+    "type": "cta",
+    "big": "Évitez l'amende : *faites-la maintenant*",
+    "sub": null,
+    "voice": "Faites votre carte grise sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C044",
+  "category": "pedagogie",
+  "title": "Les erreurs qui bloquent un dossier",
+  "desc": "Les erreurs qui bloquent une carte grise : photo illisible, signature manquante, justificatif trop ancien, contrôle technique expiré, nom différent entre les documents.",
+  "tags": [
+   "erreurs",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*5 erreurs* qui bloquent votre dossier",
+    "icon": "cross",
+    "voice": "Cinq erreurs qui bloquent votre dossier de carte grise.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "À éviter",
+    "items": [
+     "✗ Photo de document illisible",
+     "✗ Signature manquante",
+     "✗ Justificatif de plus de 6 mois",
+     "✗ Contrôle technique expiré",
+     "✗ Nom différent selon les pièces"
+    ],
+    "voice": "Une photo illisible. Une signature manquante. Un justificatif trop ancien. Un contrôle technique expiré. Un nom différent selon les pièces."
+   },
+   {
+    "type": "point",
+    "title": "Notre équipe *vérifie avant*",
+    "text": null,
+    "icon": "check",
+    "voice": "Notre équipe vérifie votre dossier avant la saisie.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C045",
+  "category": "pedagogie",
+  "title": "Carte grise à deux noms : le cotitulaire",
+  "desc": "Une carte grise peut être faite à deux noms : un titulaire et un cotitulaire. Les deux doivent signer la demande.",
+  "tags": [
+   "couple",
+   "cartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise *à deux noms* ?",
+    "icon": "doc",
+    "voice": "On peut mettre une carte grise à deux noms ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Oui : *titulaire + cotitulaire*",
+    "text": "Pratique pour un couple ou une famille.",
+    "icon": "check",
+    "voice": "Oui : un titulaire et un cotitulaire.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Les deux *signent*",
+    "text": "Chacun fournit sa pièce d'identité.",
+    "icon": "doc",
+    "voice": "Les deux signent et fournissent leur pièce d'identité.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C046",
+  "category": "pedagogie",
+  "title": "Vignette Crit'Air : liée à la carte grise",
+  "desc": "La vignette Crit'Air est attribuée selon les informations de la carte grise. Elle est obligatoire pour circuler dans les zones à faibles émissions (ZFE) concernées.",
+  "tags": [
+   "critair",
+   "zfe"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Crit'Air : *vous l'avez* ?",
+    "icon": "shield",
+    "voice": "Avez-vous votre vignette Crit'Air ?",
+    "kicker": "ZFE"
+   },
+   {
+    "type": "point",
+    "title": "Calculée d'après *la carte grise*",
+    "text": "Énergie et date de 1re immatriculation.",
+    "icon": "doc",
+    "voice": "Elle dépend des informations de votre carte grise.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Obligatoire en *ZFE*",
+    "text": "Dans les zones concernées.",
+    "icon": "warn",
+    "voice": "Elle est obligatoire dans les zones à faibles émissions concernées.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Commandez *votre Crit'Air*",
+    "sub": null,
+    "voice": "Commandez-la avec votre démarche sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C047",
+  "category": "pedagogie",
+  "title": "La plaque suit la voiture à vie",
+  "desc": "Depuis 2009, le numéro d'immatriculation est attribué au véhicule à vie. Il ne change pas quand vous achetez la voiture ou déménagez.",
+  "tags": [
+   "plaque",
+   "immatriculation"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Nouvelle voiture = *nouvelles plaques* ?",
+    "icon": "plate",
+    "voice": "Vous achetez une voiture : faut-il changer les plaques ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Non : le numéro suit *le véhicule*",
+    "text": "Depuis 2009, à vie.",
+    "icon": "plate",
+    "voice": "Non. Depuis deux mille neuf, le numéro suit le véhicule à vie.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Même si vous *déménagez*",
+    "text": null,
+    "icon": "house",
+    "voice": "Même si vous déménagez.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C048",
+  "category": "pedagogie",
+  "title": "Vendre sa voiture : les documents à remettre",
+  "desc": "Vous vendez ? Remettez à l'acheteur : la carte grise barrée et signée, un exemplaire du certificat de cession, le code de cession, le contrôle technique de moins de 6 mois et le certificat de situation administrative.",
+  "tags": [
+   "vendresavoiture",
+   "checklist"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vous vendez ? *À remettre* à l'acheteur",
+    "icon": "swap",
+    "voice": "Vous vendez votre voiture ? Voici ce que vous devez remettre.",
+    "kicker": "Vendeurs"
+   },
+   {
+    "type": "list",
+    "title": "La liste",
+    "items": [
+     "Carte grise barrée et signée",
+     "Certificat de cession",
+     "Code de cession",
+     "CT de moins de 6 mois",
+     "Certificat de situation administrative"
+    ],
+    "voice": "La carte grise barrée, le certificat de cession, le code de cession, le contrôle technique récent, et le certificat de situation administrative."
+   },
+   {
+    "type": "cta",
+    "big": "Déclarez *votre vente*",
+    "sub": null,
+    "voice": "Déclarez votre vente sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C049",
+  "category": "pedagogie",
+  "title": "Gardez votre exemplaire du certificat de cession",
+  "desc": "Vendeur : gardez toujours un exemplaire du certificat de cession signé. C'est votre preuve en cas d'amende ou de litige après la vente.",
+  "tags": [
+   "certificatdecession",
+   "vendresavoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vendeur : *ne jetez pas* ce papier",
+    "icon": "doc",
+    "voice": "Vendeur, ne jetez surtout pas ce papier.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Votre exemplaire du *certificat de cession*",
+    "text": "Signé par vous et l'acheteur.",
+    "icon": "doc",
+    "voice": "Votre exemplaire du certificat de cession, signé par les deux.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Votre *preuve*",
+    "text": "En cas d'amende ou de litige après la vente.",
+    "icon": "shield",
+    "voice": "C'est votre preuve en cas d'amende ou de litige.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C050",
+  "category": "pedagogie",
+  "title": "Que contient le prix d'une carte grise ?",
+  "desc": "Le prix d'une carte grise comprend : la taxe régionale (chevaux fiscaux), la taxe fixe Y.4 de 11 €, la redevance d'acheminement Y.5 de 2,76 €, et parfois un malus ou la taxe Y.2 des utilitaires.",
+  "tags": [
+   "prixcartegrise",
+   "taxe"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Où va *votre argent* ?",
+    "icon": "euro",
+    "voice": "Quand vous payez une carte grise, où va votre argent ?",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Les taxes",
+    "items": [
+     "Taxe régionale : à la région",
+     "Taxe fixe Y.4 : 11 €",
+     "Acheminement Y.5 : 2,76 €",
+     "Malus éventuel"
+    ],
+    "voice": "La taxe régionale, la taxe fixe de onze euros, l'acheminement à deux euros soixante-seize, et un éventuel malus."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C051",
+  "category": "pedagogie",
+  "title": "Contre-visite : le délai change",
+  "desc": "Si votre contrôle technique a donné lieu à une contre-visite, la vente demande une contre-visite de moins de 2 mois.",
+  "tags": [
+   "controletechnique",
+   "contrevisite",
+   "vendresavoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Contre-visite ? *Autre délai*",
+    "icon": "clock",
+    "voice": "Votre contrôle technique a donné une contre-visite ? Le délai change.",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": "Pour vendre",
+    "left": [
+     "CT sans contre-visite",
+     "Moins de 6 mois"
+    ],
+    "right": [
+     "Avec contre-visite",
+     "Contre-visite de moins de 2 mois"
+    ],
+    "voice": "Sans contre-visite, moins de six mois. Avec contre-visite, la contre-visite doit dater de moins de deux mois."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C052",
+  "category": "pedagogie",
+  "title": "Plus de carte grise en préfecture depuis 2017",
+  "desc": "Depuis 2017, les préfectures ne délivrent plus les cartes grises au guichet. Toutes les démarches se font en ligne.",
+  "tags": [
+   "prefecture",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "La préfecture ? *Plus de guichet*",
+    "icon": "house",
+    "voice": "Vous pensiez aller en préfecture pour votre carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "2017",
+    "label": "Fin des guichets *carte grise* en préfecture",
+    "icon": "calendar",
+    "voice": "Depuis deux mille dix-sept, il n'y a plus de guichet carte grise en préfecture."
+   },
+   {
+    "type": "point",
+    "title": "Tout se fait *en ligne*",
+    "text": "Sur le site officiel ou avec un professionnel habilité.",
+    "icon": "phone",
+    "voice": "Tout se fait en ligne, sur le site officiel ou avec un professionnel habilité.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C053",
+  "category": "pedagogie",
+  "title": "Décès du titulaire : que faire de la voiture ?",
+  "desc": "Après le décès du titulaire, les héritiers doivent mettre la carte grise à leur nom ou déclarer la vente du véhicule s'ils le vendent.",
+  "tags": [
+   "succession",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Voiture d'un *proche décédé*",
+    "icon": "doc",
+    "voice": "Que faire de la voiture d'un proche décédé ?",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": "Deux options",
+    "left": [
+     "La garder",
+     "Carte grise au nom de l'héritier"
+    ],
+    "right": [
+     "La vendre",
+     "Vente et déclaration de cession"
+    ],
+    "voice": "Soit vous la gardez, avec une carte grise à votre nom. Soit vous la vendez, avec une déclaration de cession."
+   },
+   {
+    "type": "cta",
+    "big": "On vous *accompagne*",
+    "sub": "Pièces indiquées selon votre situation",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C054",
+  "category": "pedagogie",
+  "title": "Rouler sans carte grise à jour : les risques",
+  "desc": "Rouler sans carte grise à son nom au-delà d'un mois, c'est risquer une amende et des complications avec votre assurance en cas de sinistre.",
+  "tags": [
+   "amende",
+   "assurance"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise pas à jour : *les risques*",
+    "icon": "warn",
+    "voice": "Vous roulez avec une carte grise qui n'est pas à votre nom ?",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Ce que vous risquez",
+    "items": [
+     "Amende de 4e classe",
+     "Courriers et PV au mauvais nom",
+     "Complications avec l'assurance"
+    ],
+    "voice": "Une amende. Des courriers au mauvais nom. Et des complications avec l'assurance."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C055",
+  "category": "pedagogie",
+  "title": "Véhicule neuf : qui fait la carte grise ?",
+  "desc": "Pour un véhicule neuf, le concessionnaire fait souvent la carte grise. Si ce n'est pas le cas, vous pouvez la faire avec un professionnel habilité.",
+  "tags": [
+   "voitureneuve",
+   "concession"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Voiture *neuve* : qui fait la carte grise ?",
+    "icon": "car",
+    "voice": "Vous achetez une voiture neuve. Qui fait la carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Souvent le *concessionnaire*",
+    "text": "C'est inclus dans la vente dans la plupart des cas.",
+    "icon": "check",
+    "voice": "Le plus souvent, c'est le concessionnaire.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Sinon, *vous*",
+    "text": "Avec le certificat de conformité et la facture.",
+    "icon": "doc",
+    "voice": "Sinon, c'est vous, avec le certificat de conformité et la facture.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C056",
+  "category": "pedagogie",
+  "title": "Ce qu'on ne vous dit pas sur le certificat provisoire",
+  "desc": "Le certificat provisoire vous permet de circuler en France pendant 1 mois, le temps de recevoir votre carte grise définitive. Gardez-le dans la voiture.",
+  "tags": [
+   "cartegrise",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le papier à garder *dans la boîte à gants*",
+    "icon": "doc",
+    "voice": "Le papier à garder dans la boîte à gants.",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "1 mois",
+    "label": "De validité pour le *certificat provisoire*",
+    "icon": "calendar",
+    "voice": "Le certificat provisoire est valable un mois."
+   },
+   {
+    "type": "point",
+    "title": "Uniquement en *France*",
+    "text": "En attendant votre carte grise définitive.",
+    "icon": "map",
+    "voice": "Uniquement en France, en attendant la carte grise définitive.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C057",
+  "category": "conversion",
+  "title": "Votre carte grise en 4 étapes",
+  "desc": "Votre carte grise en 4 étapes : 1. calculez votre prix, 2. remplissez un seul formulaire, 3. payez en 1 ou 4 fois selon éligibilité, 4. envoyez vos pièces : nous saisissons votre dossier.",
+  "tags": [
+   "tuto",
+   "cartegriseenligne"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise : *4 étapes*, c'est tout",
+    "icon": "phone",
+    "voice": "Votre carte grise, en quatre étapes seulement.",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "Comment ça marche",
+    "items": [
+     "Calculez votre prix",
+     "Remplissez un seul formulaire",
+     "Payez en 1 ou 4 fois",
+     "Envoyez vos pièces"
+    ],
+    "voice": "Calculez votre prix. Remplissez un seul formulaire. Payez en une ou quatre fois. Envoyez vos pièces."
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C058",
+  "category": "conversion",
+  "title": "Payer sa carte grise en 4 fois",
+  "desc": "Votre carte grise payable en 4 fois avec PayPal ou Klarna sur la page de paiement, selon éligibilité. Seule la 1re échéance est prélevée le jour de la commande.",
+  "tags": [
+   "paiementen4fois",
+   "budget"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "La carte grise *en 4 fois*",
+    "icon": "cards",
+    "voice": "Et si vous payiez votre carte grise en quatre fois ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Avec *PayPal ou Klarna*",
+    "text": "Sur la page de paiement, selon éligibilité.",
+    "icon": "cards",
+    "voice": "Avec PayPal ou Klarna, selon éligibilité.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "*1re échéance* le jour de la commande",
+    "text": "Les suivantes tous les 30 jours.",
+    "icon": "calendar",
+    "voice": "Seule la première échéance est prélevée le jour de la commande.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C059",
+  "category": "conversion",
+  "title": "Prix affiché tout compris, selon votre département",
+  "desc": "Sur CarteGrise4x, le prix est calculé selon le tarif de votre département et affiché tout compris avant le paiement : taxes et frais de service.",
+  "tags": [
+   "prixcartegrise",
+   "transparence"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le prix *final*, avant de payer",
+    "icon": "euro",
+    "voice": "Vous voyez le prix final avant de payer.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Le prix inclut",
+    "items": [
+     "Les taxes de votre région",
+     "Les taxes fixes",
+     "Nos frais de service"
+    ],
+    "voice": "Le prix inclut les taxes de votre région, les taxes fixes, et nos frais de service."
+   },
+   {
+    "type": "point",
+    "title": "*Aucune surprise*",
+    "text": "Tout est affiché avant la validation.",
+    "icon": "check",
+    "voice": "Tout est affiché avant la validation.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C060",
+  "category": "conversion",
+  "title": "Dossier complet traité sous 12 h ouvrées",
+  "desc": "Chez CarteGrise4x, un dossier complet est traité sous 12 h ouvrées.",
+  "tags": [
+   "rapide",
+   "cartegriseenligne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Dossier traité *sous 12 h ouvrées*",
+    "icon": "clock",
+    "voice": "Votre dossier complet, traité sous douze heures ouvrées.",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "12 h",
+    "label": "Dossier complet traité *sous 12 h ouvrées*",
+    "icon": "clock",
+    "voice": "Dossier complet traité sous douze heures ouvrées."
+   },
+   {
+    "type": "point",
+    "title": "Puis le *certificat provisoire*",
+    "text": "Dès l'enregistrement de votre demande.",
+    "icon": "doc",
+    "voice": "Puis vous recevez le certificat provisoire dès l'enregistrement.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C061",
+  "category": "conversion",
+  "title": "Professionnel habilité SIV",
+  "desc": "CarteGrise4x est un professionnel habilité SIV : nous saisissons directement votre demande dans le système d'immatriculation des véhicules. Service privé, non affilié à l'ANTS.",
+  "tags": [
+   "habilite",
+   "siv"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Qui saisit *votre dossier* ?",
+    "icon": "shield",
+    "voice": "Qui saisit votre demande de carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Un professionnel *habilité SIV*",
+    "text": "Autorisé à saisir dans le système d'immatriculation.",
+    "icon": "shield",
+    "voice": "Un professionnel habilité S I V, autorisé à saisir votre demande.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Service *privé*",
+    "text": "Non affilié à l'ANTS.",
+    "icon": "check",
+    "voice": "Nous sommes un service privé, non affilié à l'A N T S.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C062",
+  "category": "conversion",
+  "title": "Les cerfa pré-remplis pour vous",
+  "desc": "Plus besoin de chercher le bon cerfa : chez CarteGrise4x, vous remplissez un seul formulaire et les cerfa sont pré-remplis.",
+  "tags": [
+   "cerfa",
+   "simplicite"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Les cerfa ? *On s'en occupe*",
+    "icon": "doc",
+    "voice": "Les cerfa, c'est compliqué ? On s'en occupe.",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Seul",
+     "Trouver le bon cerfa, le remplir, le scanner"
+    ],
+    "right": [
+     "Avec nous",
+     "Un formulaire, cerfa pré-remplis"
+    ],
+    "voice": "Seul, il faut trouver le bon cerfa et le remplir. Avec nous, un seul formulaire, et les cerfa sont pré-remplis."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C063",
+  "category": "conversion",
+  "title": "Une équipe vérifie votre dossier",
+  "desc": "Avant la saisie, notre équipe vérifie vos pièces pour éviter un refus ou un blocage.",
+  "tags": [
+   "accompagnement",
+   "cartegriseenligne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre dossier *vérifié* avant envoi",
+    "icon": "check",
+    "voice": "Votre dossier est vérifié avant d'être saisi.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "On vérifie",
+    "items": [
+     "La lisibilité des pièces",
+     "Les signatures",
+     "La validité du contrôle technique",
+     "Le justificatif de domicile"
+    ],
+    "voice": "On vérifie la lisibilité, les signatures, le contrôle technique, et le justificatif de domicile."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C064",
+  "category": "conversion",
+  "title": "Sans vous déplacer, depuis votre téléphone",
+  "desc": "Votre carte grise sans vous déplacer : formulaire, paiement et envoi des pièces se font en ligne, depuis votre téléphone.",
+  "tags": [
+   "cartegriseenligne",
+   "mobile"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre carte grise *depuis le canapé*",
+    "icon": "phone",
+    "voice": "Votre carte grise depuis votre canapé.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Tout en ligne",
+    "items": [
+     "Le formulaire",
+     "Le paiement",
+     "L'envoi des pièces"
+    ],
+    "voice": "Le formulaire, le paiement, l'envoi des pièces : tout se fait en ligne."
+   },
+   {
+    "type": "point",
+    "title": "La carte grise arrive *chez vous*",
+    "text": null,
+    "icon": "house",
+    "voice": "Et la carte grise arrive chez vous.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C065",
+  "category": "conversion",
+  "title": "Une carte grise à 400 € ? Étalez le paiement",
+  "desc": "Une carte grise à 400 € ? Avec le paiement en 4 fois (PayPal ou Klarna, selon éligibilité), cela fait 4 échéances de 100 €. Seule la 1re est prélevée le jour de la commande.",
+  "tags": [
+   "paiementen4fois",
+   "budget"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "400 € d'un coup ? *Ou 4 × 100 €*",
+    "icon": "cards",
+    "voice": "Quatre cents euros d'un coup ? Ou quatre fois cent euros.",
+    "kicker": "Exemple"
+   },
+   {
+    "type": "stat",
+    "value": "4 × 100 €",
+    "label": "Pour une carte grise à *400 €*",
+    "icon": "cards",
+    "voice": "Pour une carte grise à quatre cents euros, quatre échéances de cent euros."
+   },
+   {
+    "type": "point",
+    "title": "Selon *éligibilité*",
+    "text": "PayPal ou Klarna décident de l'acceptation.",
+    "icon": "shield",
+    "voice": "Sous réserve d'acceptation par PayPal ou Klarna.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C066",
+  "category": "conversion",
+  "title": "Déclaration de cession en ligne",
+  "desc": "Vous vendez votre voiture ? Faites votre déclaration de cession en ligne avec CarteGrise4x et récupérez le code de cession pour l'acheteur.",
+  "tags": [
+   "declarationdecession",
+   "vendresavoiture"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Déclarer *la vente* de sa voiture",
+    "icon": "swap",
+    "voice": "Vous avez vendu votre voiture ? Déclarez la vente en ligne.",
+    "kicker": "Vendeurs"
+   },
+   {
+    "type": "steps",
+    "title": "Avec nous",
+    "items": [
+     "Remplissez le formulaire",
+     "Joignez le certificat de cession",
+     "Recevez le code de cession"
+    ],
+    "voice": "Remplissez le formulaire. Joignez le certificat de cession. Recevez le code de cession."
+   },
+   {
+    "type": "cta",
+    "big": "Déclarez *votre cession*",
+    "sub": null,
+    "voice": "Déclarez votre cession sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C067",
+  "category": "conversion",
+  "title": "Changement d'adresse en ligne",
+  "desc": "Vous avez déménagé ? Mettez à jour l'adresse de votre carte grise en ligne, sans vous déplacer.",
+  "tags": [
+   "changementdadresse",
+   "demenagement"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Déménagé ? *Mettez à jour* en 3 min",
+    "icon": "house",
+    "voice": "Vous avez déménagé ? Mettez à jour votre carte grise.",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "En ligne",
+    "items": [
+     "Votre nouvelle adresse",
+     "Un justificatif de domicile",
+     "Votre carte grise actuelle"
+    ],
+    "voice": "Votre nouvelle adresse, un justificatif de domicile, et votre carte grise actuelle."
+   },
+   {
+    "type": "cta",
+    "big": "Changez *d'adresse*",
+    "sub": null,
+    "voice": "Changez votre adresse sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C068",
+  "category": "conversion",
+  "title": "Calculer le prix de sa carte grise en 30 secondes",
+  "desc": "Calculez le prix de votre carte grise en 30 secondes : département, puissance fiscale, date de 1re immatriculation et type de démarche.",
+  "tags": [
+   "prixcartegrise",
+   "simulateur"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre prix en *30 secondes*",
+    "icon": "clock",
+    "voice": "Le prix de votre carte grise en trente secondes.",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "Il vous faut",
+    "items": [
+     "Votre département",
+     "La puissance fiscale (P.6)",
+     "La date de 1re immatriculation (B)",
+     "Le type de démarche"
+    ],
+    "voice": "Votre département, la puissance fiscale, la date de première immatriculation, et le type de démarche."
+   },
+   {
+    "type": "cta",
+    "big": "Faites *le calcul*",
+    "sub": "Gratuit et sans engagement",
+    "voice": "Faites le calcul sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C069",
+  "category": "conversion",
+  "title": "CarteGrise4x, c'est l'ANTS ?",
+  "desc": "Non. CarteGrise4x est un service privé, non affilié à l'ANTS. Nous sommes un professionnel habilité qui fait la démarche pour vous, contre des frais de service affichés avant paiement.",
+  "tags": [
+   "faq",
+   "transparence"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "CarteGrise4x, *c'est l'ANTS* ?",
+    "icon": "question",
+    "voice": "On nous demande souvent : CarteGrise4x, c'est l'ANTS ?",
+    "kicker": "FAQ"
+   },
+   {
+    "type": "point",
+    "title": "*Non*, service privé",
+    "text": "Non affilié à l'ANTS.",
+    "icon": "shield",
+    "voice": "Non. Nous sommes un service privé, non affilié à l'A N T S.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Un professionnel *habilité*",
+    "text": "Frais de service affichés avant paiement.",
+    "icon": "check",
+    "voice": "Un professionnel habilité, avec des frais affichés avant le paiement.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C070",
+  "category": "conversion",
+  "title": "Toutes les démarches de carte grise",
+  "desc": "Changement de titulaire, déclaration de cession, changement d'adresse, duplicata, véhicule neuf, import, W garage : toutes vos démarches de carte grise en ligne.",
+  "tags": [
+   "demarches",
+   "cartegriseenligne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*Toutes* vos démarches au même endroit",
+    "icon": "doc",
+    "voice": "Toutes vos démarches de carte grise au même endroit.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Démarches",
+    "items": [
+     "Changement de titulaire",
+     "Déclaration de cession",
+     "Changement d'adresse",
+     "Duplicata",
+     "Véhicule neuf ou importé"
+    ],
+    "voice": "Changement de titulaire, cession, adresse, duplicata, véhicule neuf ou importé."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C071",
+  "category": "conversion",
+  "title": "Paiement sécurisé",
+  "desc": "Le paiement se fait sur des pages sécurisées : carte bancaire, PayPal ou Klarna. Le paiement en 4 fois est soumis à éligibilité.",
+  "tags": [
+   "paiement",
+   "securite"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Payer en ligne, *en sécurité*",
+    "icon": "shield",
+    "voice": "Payer sa carte grise en ligne, en toute sécurité.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Moyens de paiement",
+    "items": [
+     "Carte bancaire",
+     "PayPal",
+     "Klarna"
+    ],
+    "voice": "Carte bancaire, PayPal ou Klarna."
+   },
+   {
+    "type": "point",
+    "title": "Pages de paiement *sécurisées*",
+    "text": "Gérées par nos prestataires de paiement.",
+    "icon": "shield",
+    "voice": "Sur des pages de paiement sécurisées.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C072",
+  "category": "conversion",
+  "title": "1re échéance seulement le jour de la commande",
+  "desc": "En paiement en 4 fois (PayPal ou Klarna, selon éligibilité), seule la 1re échéance est prélevée le jour de la commande, puis une échéance tous les 30 jours.",
+  "tags": [
+   "paiementen4fois",
+   "budget"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Aujourd'hui, vous payez *1/4*",
+    "icon": "cards",
+    "voice": "Aujourd'hui, vous ne payez qu'un quart.",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "Les échéances",
+    "items": [
+     "Jour de la commande : 1re échéance",
+     "+30 jours : 2e échéance",
+     "+60 jours : 3e échéance",
+     "+90 jours : 4e échéance"
+    ],
+    "voice": "La première le jour de la commande, puis une tous les trente jours."
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C073",
+  "category": "conversion",
+  "title": "Le changement de titulaire avec CarteGrise4x",
+  "desc": "Changement de titulaire avec CarteGrise4x : un seul formulaire, cerfa pré-remplis, dossier vérifié, certificat provisoire dès l'enregistrement.",
+  "tags": [
+   "changementdetitulaire",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Changement de titulaire, *simplifié*",
+    "icon": "swap",
+    "voice": "Le changement de titulaire, en version simple.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "Ce que vous avez",
+    "items": [
+     "Un seul formulaire",
+     "Des cerfa pré-remplis",
+     "Un dossier vérifié",
+     "Le certificat provisoire"
+    ],
+    "voice": "Un seul formulaire, des cerfa pré-remplis, un dossier vérifié, et le certificat provisoire."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C074",
+  "category": "conversion",
+  "title": "Duplicata de carte grise en ligne",
+  "desc": "Carte grise perdue, volée ou abîmée ? Demandez votre duplicata en ligne avec CarteGrise4x.",
+  "tags": [
+   "duplicata"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise *abîmée* ou perdue ?",
+    "icon": "doc",
+    "voice": "Votre carte grise est perdue, volée ou abîmée ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Demandez un *duplicata*",
+    "text": "En ligne, sans vous déplacer.",
+    "icon": "phone",
+    "voice": "Demandez un duplicata, en ligne.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Gardez le *certificat provisoire*",
+    "text": "En attendant le nouveau titre.",
+    "icon": "doc",
+    "voice": "En attendant, vous avez un certificat provisoire.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Votre *duplicata*",
+    "sub": null,
+    "voice": "Faites votre demande sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C075",
+  "category": "conversion",
+  "title": "Pourquoi « 4x » dans CarteGrise4x ?",
+  "desc": "Le 4x de CarteGrise4x, c'est le paiement en 4 fois avec PayPal ou Klarna, selon éligibilité.",
+  "tags": [
+   "cartegrise4x",
+   "paiementen4fois"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Pourquoi *« 4x »* ?",
+    "icon": "question",
+    "voice": "Pourquoi carte grise quatre x ?",
+    "kicker": null
+   },
+   {
+    "type": "stat",
+    "value": "4x",
+    "label": "Comme payable *en 4 fois*",
+    "icon": "cards",
+    "voice": "Quatre x, comme payable en quatre fois."
+   },
+   {
+    "type": "point",
+    "title": "PayPal ou Klarna",
+    "text": "Selon éligibilité.",
+    "icon": "cards",
+    "voice": "Avec PayPal ou Klarna, selon éligibilité.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C076",
+  "category": "conversion",
+  "title": "Vous achetez ce week-end ? Préparez la carte grise",
+  "desc": "Vous achetez une voiture ce week-end ? Calculez dès maintenant le prix de la carte grise et préparez les pièces.",
+  "tags": [
+   "voitureoccasion",
+   "weekend"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Achat *ce week-end* ?",
+    "icon": "car",
+    "voice": "Vous achetez une voiture ce week-end ?",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "Avant le rendez-vous",
+    "items": [
+     "Calculez le prix de la carte grise",
+     "Vérifiez la checklist des pièces",
+     "Demandez le code de cession"
+    ],
+    "voice": "Calculez le prix, vérifiez la checklist, et demandez le code de cession."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C077",
+  "category": "conversion",
+  "title": "Carte grise étudiante : étaler le coût",
+  "desc": "Étudiant et première voiture ? Le paiement en 4 fois avec PayPal ou Klarna (selon éligibilité) permet d'étaler le coût de la carte grise. Un crédit vous engage et doit être remboursé.",
+  "tags": [
+   "etudiant",
+   "premierevoiture",
+   "paiementen4fois"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Étudiant, *première voiture* ?",
+    "icon": "key",
+    "voice": "Étudiant, première voiture ? Pensez au coût de la carte grise.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Étalez en *4 fois*",
+    "text": "PayPal ou Klarna, selon éligibilité.",
+    "icon": "cards",
+    "voice": "Vous pouvez étaler le paiement en quatre fois, selon éligibilité.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Vérifiez votre *budget*",
+    "text": "Chaque échéance doit rester supportable.",
+    "icon": "check",
+    "voice": "Vérifiez que chaque échéance reste dans votre budget.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C078",
+  "category": "conversion",
+  "title": "W garage : immatriculation provisoire",
+  "desc": "Professionnels de l'automobile : faites vos démarches W garage en ligne avec CarteGrise4x.",
+  "tags": [
+   "wgarage",
+   "professionnel",
+   "garage"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Garages : le *W garage* en ligne",
+    "icon": "plate",
+    "voice": "Vous êtes garagiste ? Le W garage se fait aussi en ligne.",
+    "kicker": "Pros"
+   },
+   {
+    "type": "point",
+    "title": "Pour les *professionnels*",
+    "text": "Essais, livraisons et transferts de véhicules.",
+    "icon": "car",
+    "voice": "Pour les professionnels de l'automobile.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Démarches *pros*",
+    "sub": null,
+    "voice": "Faites vos démarches sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C079",
+  "category": "conversion",
+  "title": "Combien de temps pour faire la démarche ?",
+  "desc": "Avec CarteGrise4x : quelques minutes pour remplir le formulaire, et un dossier complet traité sous 12 h ouvrées.",
+  "tags": [
+   "rapide",
+   "cartegriseenligne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Ça prend *combien de temps* ?",
+    "icon": "clock",
+    "voice": "Faire sa carte grise en ligne, ça prend combien de temps ?",
+    "kicker": null
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Vous",
+     "Quelques minutes de formulaire"
+    ],
+    "right": [
+     "Nous",
+     "Dossier complet traité sous 12 h ouvrées"
+    ],
+    "voice": "De votre côté, quelques minutes. De notre côté, un dossier complet traité sous douze heures ouvrées."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C080",
+  "category": "conversion",
+  "title": "Une question sur votre démarche ?",
+  "desc": "Un doute sur votre démarche de carte grise ? Posez votre question en commentaire, on vous répond.",
+  "tags": [
+   "faq",
+   "question"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Une *question* sur votre carte grise ?",
+    "icon": "question",
+    "voice": "Vous avez une question sur votre carte grise ?",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Posez-la *en commentaire*",
+    "text": "On vous répond.",
+    "icon": "phone",
+    "voice": "Posez-la en commentaire, on vous répond.",
+    "n": null
+   },
+   {
+    "type": "list",
+    "title": "Les plus fréquentes",
+    "items": [
+     "Quel délai ?",
+     "Quels documents ?",
+     "Quel prix ?"
+    ],
+    "voice": "Délai, documents, prix : on vous explique tout."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C081",
+  "category": "conversion",
+  "title": "Vendeur pro ou particulier : on s'adapte",
+  "desc": "Achat chez un particulier, vente, déménagement ou import : CarteGrise4x vous indique les pièces selon votre situation.",
+  "tags": [
+   "accompagnement"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre situation est *particulière* ?",
+    "icon": "question",
+    "voice": "Votre situation est particulière ?",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "On vous guide",
+    "items": [
+     "Achat entre particuliers",
+     "Vente de votre voiture",
+     "Déménagement",
+     "Véhicule importé"
+    ],
+    "voice": "Achat, vente, déménagement ou import : on vous guide."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C082",
+  "category": "conversion",
+  "title": "Récap : votre carte grise sans stress",
+  "desc": "Le récap : 1 mois pour la faire, prix selon votre région, un seul formulaire, dossier vérifié, paiement en 1 ou 4 fois selon éligibilité.",
+  "tags": [
+   "recap",
+   "cartegriseenligne"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Carte grise *sans stress* : le récap",
+    "icon": "check",
+    "voice": "La carte grise sans stress, le récap.",
+    "kicker": null
+   },
+   {
+    "type": "list",
+    "title": "À retenir",
+    "items": [
+     "1 mois après l'achat",
+     "Prix selon votre région",
+     "Un seul formulaire",
+     "Dossier vérifié",
+     "Paiement en 1 ou 4 fois"
+    ],
+    "voice": "Un mois après l'achat. Prix selon votre région. Un seul formulaire. Dossier vérifié. Paiement en une ou quatre fois."
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
+ },
+ {
+  "id": "C083",
+  "category": "conversion",
+  "title": "Changement de titulaire : votre prix maintenant",
+  "desc": "Vous venez d'acheter ? Calculez maintenant le prix de votre changement de titulaire, selon votre département et votre véhicule.",
+  "tags": [
+   "changementdetitulaire",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Vous venez *d'acheter* ?",
+    "icon": "car",
+    "voice": "Vous venez d'acheter une voiture ? Félicitations.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Calculez votre *prix exact*",
+    "text": "Département, chevaux fiscaux, âge du véhicule.",
+    "icon": "euro",
+    "voice": "Calculez maintenant votre prix exact.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Faites-la *dans le mois*",
+    "text": null,
+    "icon": "calendar",
+    "voice": "Et faites la carte grise dans le mois.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ }
+]
