@@ -3437,5 +3437,907 @@
     "voice": "Calculez votre prix sur cartegrise4x.fr."
    }
   ]
+ },
+ {
+  "id": "C084",
+  "category": "acquisition",
+  "title": "Bordeaux ou Nantes ? 42 € d'écart",
+  "desc": "Même voiture de 6 CV, deux villes de la façade atlantique : 348 € de taxe régionale à Bordeaux (Nouvelle-Aquitaine, 58 € le cheval) contre 306 € à Nantes (Pays de la Loire, 51 € le cheval). Tarifs 2026 vérifiés le 16/11/2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "bordeaux",
+   "nantes",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Bordeaux ou Nantes : *42 € d'écart*",
+    "icon": "map",
+    "voice": "Bordeaux ou Nantes ? Pour la même voiture, quarante-deux euros d'écart sur la carte grise.",
+    "kicker": "6 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *6 CV*",
+    "left": [
+     "Bordeaux",
+     "6 × 58 € = 348 €"
+    ],
+    "right": [
+     "Nantes",
+     "6 × 51 € = 306 €"
+    ],
+    "voice": "Six fois cinquante-huit euros à Bordeaux, soit trois cent quarante-huit euros. Six fois cinquante et un à Nantes, soit trois cent six."
+   },
+   {
+    "type": "point",
+    "title": "Le prix suit la *région*",
+    "text": "Pas la ville, ni le prix de la voiture.",
+    "icon": "car",
+    "voice": "C'est la région qui fixe le prix du cheval fiscal.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C085",
+  "category": "pedagogie",
+  "title": "Case B : la date qui peut diviser la taxe par 2",
+  "desc": "La case B de la carte grise indique la date de première immatriculation. Au-delà de 10 ans, la taxe régionale est réduite de 50 %. Regardez cette case avant d'acheter une voiture d'occasion.",
+  "tags": [
+   "lirecartegrise",
+   "voitureoccasion",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Regardez la *case B*",
+    "icon": "doc",
+    "voice": "Avant d'acheter une voiture d'occasion, regardez la case B de la carte grise.",
+    "kicker": "Lire sa carte grise"
+   },
+   {
+    "type": "point",
+    "title": "Date de *1re immatriculation*",
+    "text": "C'est elle qui donne l'âge du véhicule.",
+    "icon": "calendar",
+    "voice": "Elle indique la date de première immatriculation, donc l'âge du véhicule.",
+    "n": null
+   },
+   {
+    "type": "stat",
+    "value": "-50 %",
+    "label": "Sur la *taxe régionale* au-delà de 10 ans",
+    "icon": "euro",
+    "voice": "Au-delà de dix ans, la taxe régionale est réduite de moitié."
+   },
+   {
+    "type": "cta",
+    "big": "Votre prix avec *l'âge* du véhicule",
+    "sub": "Calcul automatique selon la case B",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C086",
+  "category": "conversion",
+  "title": "Votre prix en 3 informations",
+  "desc": "Pour connaître le prix de votre carte grise, il suffit de 3 informations : votre département, la puissance fiscale (case P.6) et la date de première immatriculation (case B). Le calcul est immédiat sur cartegrise4x.fr.",
+  "tags": [
+   "prixcartegrise",
+   "simulateur"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Votre prix en *3 infos*",
+    "icon": "euro",
+    "voice": "Le prix de votre carte grise tient en trois informations.",
+    "kicker": null
+   },
+   {
+    "type": "steps",
+    "title": "Il vous faut",
+    "items": [
+     "Votre département",
+     "Les chevaux fiscaux (case P.6)",
+     "La date de 1re immatriculation (case B)"
+    ],
+    "voice": "Votre département, les chevaux fiscaux en case P six, et la date de première immatriculation en case B."
+   },
+   {
+    "type": "cta",
+    "big": "Calcul *immédiat*",
+    "sub": "Taxes officielles et frais de service détaillés",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C087",
+  "category": "acquisition",
+  "title": "Toulouse ou Lille ? 66 € d'écart",
+  "desc": "Pour une 4 CV en 2026 : 238 € de taxe régionale à Toulouse (Occitanie, 59,50 € le cheval) contre 172 € à Lille (Hauts-de-France, 43 € le cheval). Tarifs vérifiés le 16/11/2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "toulouse",
+   "lille",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Toulouse ou Lille : *66 € d'écart*",
+    "icon": "map",
+    "voice": "Toulouse ou Lille ? Pour une petite quatre chevaux, soixante-six euros d'écart.",
+    "kicker": "4 CV en 2026"
+   },
+   {
+    "type": "stat",
+    "value": "238 €",
+    "label": "Taxe régionale d'une *4 CV* à Toulouse",
+    "icon": "euro",
+    "voice": "À Toulouse, quatre fois cinquante-neuf euros cinquante : deux cent trente-huit euros."
+   },
+   {
+    "type": "stat",
+    "value": "172 €",
+    "label": "La même *4 CV* à Lille",
+    "icon": "euro",
+    "voice": "À Lille, quatre fois quarante-trois euros : cent soixante-douze euros."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C088",
+  "category": "pedagogie",
+  "title": "Les 4 délais à retenir",
+  "desc": "Les délais à connaître : 1 mois pour faire la carte grise après un achat, 15 jours pour déclarer la cession quand on vend, 1 mois pour signaler un changement d'adresse, et un contrôle technique de moins de 6 mois pour vendre une voiture de plus de 4 ans (2 mois en cas de contre-visite).",
+  "tags": [
+   "delais",
+   "voitureoccasion",
+   "demarches"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*4 délais* à ne pas rater",
+    "icon": "clock",
+    "voice": "Quatre délais à ne jamais rater pour votre carte grise.",
+    "kicker": "À enregistrer"
+   },
+   {
+    "type": "list",
+    "title": "Les délais",
+    "items": [
+     "Achat : 1 mois pour la carte grise",
+     "Vente : 15 jours pour déclarer la cession",
+     "Déménagement : 1 mois",
+     "CT de moins de 6 mois pour vendre"
+    ],
+    "voice": "Un mois après un achat. Quinze jours pour déclarer une vente. Un mois après un déménagement. Et un contrôle technique de moins de six mois pour vendre."
+   },
+   {
+    "type": "point",
+    "title": "Contre-visite ?",
+    "text": "Elle doit dater de moins de 2 mois.",
+    "icon": "calendar",
+    "voice": "En cas de contre-visite, elle doit dater de moins de deux mois.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C089",
+  "category": "conversion",
+  "title": "6 CV à Bordeaux : 411,66 € tout compris",
+  "desc": "Exemple au 16/11/2026 pour le changement de titulaire d'une 6 CV à Bordeaux : 348 € de taxe régionale, 11 € de taxe fixe, 2,76 € d'acheminement et 49,90 € de frais de service CarteGrise4x, soit 411,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "bordeaux",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "6 CV à Bordeaux : *combien* ?",
+    "icon": "car",
+    "voice": "Une six chevaux à Bordeaux, combien coûte la carte grise ?",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 348 €",
+     "Taxe fixe : 11 €",
+     "Acheminement : 2,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Trois cent quarante-huit euros de taxe régionale, onze euros de taxe fixe, deux euros soixante-seize d'acheminement, et quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "411,66 €",
+    "label": "Tout compris, *au 16/11/2026*",
+    "icon": "euro",
+    "voice": "Total : quatre cent onze euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C090",
+  "category": "acquisition",
+  "title": "Voisins, mais 102 € d'écart",
+  "desc": "Clermont-Ferrand et Dijon ne sont pas dans la même région : pour une 6 CV, 258 € de taxe régionale en Auvergne-Rhône-Alpes (43 € le cheval) contre 360 € en Bourgogne-Franche-Comté (60 € le cheval). Tarifs vérifiés le 16/11/2026.",
+  "tags": [
+   "prixcartegrise",
+   "clermontferrand",
+   "dijon",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Régions voisines, *102 € d'écart*",
+    "icon": "map",
+    "voice": "Deux régions voisines, et cent deux euros d'écart sur la même carte grise.",
+    "kicker": "6 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *6 CV*",
+    "left": [
+     "Dijon",
+     "6 × 60 € = 360 €"
+    ],
+    "right": [
+     "Clermont-Ferrand",
+     "6 × 43 € = 258 €"
+    ],
+    "voice": "Trois cent soixante euros à Dijon, deux cent cinquante-huit à Clermont-Ferrand."
+   },
+   {
+    "type": "point",
+    "title": "C'est votre *adresse* qui compte",
+    "text": "Le tarif appliqué est celui de la région du titulaire.",
+    "icon": "house",
+    "voice": "Le tarif appliqué dépend de l'adresse du titulaire.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C091",
+  "category": "pedagogie",
+  "title": "Quiz : une 7 CV à Strasbourg ?",
+  "desc": "Quiz : combien de taxes pour une 7 CV à Strasbourg en 2026 ? Grand Est : 60 € le cheval, donc 420 € de taxe régionale, plus 11 € de taxe fixe et 2,76 € d'acheminement : 433,76 € de taxes, hors frais de service.",
+  "tags": [
+   "quiz",
+   "strasbourg",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Quiz : 7 CV à *Strasbourg* ?",
+    "icon": "question",
+    "voice": "Petit quiz. Combien de taxes pour une sept chevaux à Strasbourg ?",
+    "kicker": "Votre réponse ?"
+   },
+   {
+    "type": "point",
+    "title": "Grand Est : *60 €* le cheval",
+    "text": "7 × 60 € = 420 €",
+    "icon": "map",
+    "voice": "Dans le Grand Est, le cheval coûte soixante euros. Sept fois soixante : quatre cent vingt euros.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "+ *13,76 €* de taxes fixes",
+    "text": "11 € + 2,76 €",
+    "icon": "doc",
+    "voice": "Plus onze euros et deux euros soixante-seize.",
+    "n": "2"
+   },
+   {
+    "type": "stat",
+    "value": "433,76 €",
+    "label": "De taxes, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Réponse : quatre cent trente-trois euros soixante-seize de taxes."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C092",
+  "category": "conversion",
+  "title": "Le formulaire, quand vous voulez",
+  "desc": "Remplissez votre demande en ligne quand vous voulez, depuis votre téléphone. Dossier complet traité sous 12 h ouvrées.",
+  "tags": [
+   "cartegriseenligne",
+   "rapide"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le soir, le week-end : *quand vous voulez*",
+    "icon": "phone",
+    "voice": "Le soir, le week-end, quand vous voulez : votre demande se fait en ligne.",
+    "kicker": null
+   },
+   {
+    "type": "point",
+    "title": "Depuis votre *téléphone*",
+    "text": "Formulaire en ligne, pièces en photo.",
+    "icon": "phone",
+    "voice": "Depuis votre téléphone, avec vos pièces en photo.",
+    "n": null
+   },
+   {
+    "type": "point",
+    "title": "Traitement rapide",
+    "text": "Dossier complet traité sous 12 h ouvrées.",
+    "icon": "clock",
+    "voice": "Dossier complet traité sous douze heures ouvrées.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C093",
+  "category": "acquisition",
+  "title": "Guadeloupe ou Martinique ? 60 € d'écart",
+  "desc": "Aux Antilles aussi, le prix varie : pour une 5 CV en 2026, 205 € de taxe régionale en Guadeloupe (41 € le cheval) contre 265 € en Martinique (53 € le cheval). Tarifs vérifiés le 16/11/2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "guadeloupe",
+   "martinique",
+   "outremer"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Guadeloupe ou Martinique : *60 € d'écart*",
+    "icon": "map",
+    "voice": "Guadeloupe ou Martinique ? Soixante euros d'écart pour la même voiture.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *5 CV*",
+    "left": [
+     "Martinique",
+     "5 × 53 € = 265 €"
+    ],
+    "right": [
+     "Guadeloupe",
+     "5 × 41 € = 205 €"
+    ],
+    "voice": "Deux cent soixante-cinq euros en Martinique, deux cent cinq en Guadeloupe."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C094",
+  "category": "pedagogie",
+  "title": "Le calcul pas à pas : 4 CV en Guyane",
+  "desc": "Exemple de calcul pour une 4 CV en Guyane en 2026 : 4 × 42,50 € = 170 € de taxe régionale, plus la taxe fixe de 11 € et l'acheminement de 2,76 €, soit 183,76 € de taxes (hors frais de service).",
+  "tags": [
+   "guyane",
+   "calcul",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Le calcul *pas à pas*",
+    "icon": "euro",
+    "voice": "Faisons le calcul pas à pas, pour une quatre chevaux en Guyane.",
+    "kicker": "4 CV en Guyane"
+   },
+   {
+    "type": "steps",
+    "title": "Les 3 étapes",
+    "items": [
+     "4 CV × 42,50 € = 170 €",
+     "+ 11 € de taxe fixe",
+     "+ 2,76 € d'acheminement"
+    ],
+    "voice": "Quatre fois quarante-deux euros cinquante : cent soixante-dix euros. Plus onze euros. Plus deux euros soixante-seize."
+   },
+   {
+    "type": "stat",
+    "value": "183,76 €",
+    "label": "De taxes, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Total des taxes : cent quatre-vingt-trois euros soixante-seize."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C095",
+  "category": "conversion",
+  "title": "4 CV à Toulouse : 291,66 € tout compris",
+  "desc": "Exemple au 16/11/2026 pour le changement de titulaire d'une 4 CV à Toulouse : 238 € de taxe régionale, 13,76 € de taxes fixes et 39,90 € de frais de service CarteGrise4x (tarif 1 à 4 CV), soit 291,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "toulouse",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "4 CV à Toulouse : *291,66 €*",
+    "icon": "car",
+    "voice": "Une quatre chevaux à Toulouse : deux cent quatre-vingt-onze euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 238 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 39,90 €"
+    ],
+    "voice": "Deux cent trente-huit euros de taxe régionale, treize euros soixante-seize de taxes fixes, et trente-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C096",
+  "category": "acquisition",
+  "title": "+4 chevaux = +240 €",
+  "desc": "En Normandie, le cheval fiscal coûte 60 € en 2026 : 240 € de taxe régionale pour une 4 CV, 480 € pour une 8 CV. Avant d'acheter, regardez la case P.6. Tarifs vérifiés le 16/11/2026.",
+  "tags": [
+   "chevalfiscal",
+   "normandie",
+   "prixcartegrise"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "+4 chevaux = *+240 €*",
+    "icon": "car",
+    "voice": "Quatre chevaux de plus, c'est deux cent quarante euros de plus sur la carte grise.",
+    "kicker": "Normandie, 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale en *Normandie*",
+    "left": [
+     "8 CV",
+     "8 × 60 € = 480 €"
+    ],
+    "right": [
+     "4 CV",
+     "4 × 60 € = 240 €"
+    ],
+    "voice": "En Normandie, une huit chevaux paie quatre cent quatre-vingts euros, une quatre chevaux deux cent quarante."
+   },
+   {
+    "type": "point",
+    "title": "Regardez la *case P.6*",
+    "text": "Avant d'acheter.",
+    "icon": "doc",
+    "voice": "Avant d'acheter, regardez la case P six.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C097",
+  "category": "pedagogie",
+  "title": "Case J.1 : VP ou CTTE ?",
+  "desc": "La case J.1 de la carte grise indique le genre du véhicule : VP pour une voiture particulière, CTTE pour une camionnette. Pour un utilitaire, la taxe Y.2 de 34 € s'ajoute au prix.",
+  "tags": [
+   "lirecartegrise",
+   "utilitaire",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*VP* ou *CTTE* ?",
+    "icon": "doc",
+    "voice": "Sur votre carte grise, case J un : V P ou C T T E ?",
+    "kicker": "Case J.1"
+   },
+   {
+    "type": "versus",
+    "title": "Le genre du véhicule",
+    "left": [
+     "CTTE",
+     "Camionnette (utilitaire)"
+    ],
+    "right": [
+     "VP",
+     "Voiture particulière"
+    ],
+    "voice": "V P, c'est une voiture particulière. C T T E, une camionnette."
+   },
+   {
+    "type": "stat",
+    "value": "+34 €",
+    "label": "Taxe *Y.2* pour un utilitaire",
+    "icon": "euro",
+    "voice": "Pour un utilitaire, la taxe Y deux de trente-quatre euros s'ajoute."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C098",
+  "category": "conversion",
+  "title": "Nos frais de service selon la puissance",
+  "desc": "Pour un changement de titulaire, nos frais de service dépendent de la puissance fiscale : 39,90 € de 1 à 4 CV, 49,90 € de 5 à 7 CV, 59,90 € de 8 à 10 CV (TTC, hors taxes officielles). Le détail est affiché avant de payer.",
+  "tags": [
+   "transparence",
+   "changementdetitulaire",
+   "prix"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Nos frais, *sans surprise*",
+    "icon": "euro",
+    "voice": "Nos frais de service, affichés sans surprise.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Selon la case P.6",
+    "items": [
+     "1 à 4 CV : 39,90 €",
+     "5 à 7 CV : 49,90 €",
+     "8 à 10 CV : 59,90 €"
+    ],
+    "voice": "Trente-neuf euros quatre-vingt-dix jusqu'à quatre chevaux. Quarante-neuf euros quatre-vingt-dix de cinq à sept. Cinquante-neuf euros quatre-vingt-dix de huit à dix."
+   },
+   {
+    "type": "point",
+    "title": "Tout est détaillé",
+    "text": "Taxes officielles et frais affichés avant de payer.",
+    "icon": "check",
+    "voice": "Taxes et frais sont détaillés avant de payer.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C099",
+  "category": "acquisition",
+  "title": "Le classement 2026 pour une 5 CV",
+  "desc": "Taxes d'une carte grise pour une 5 CV en 2026 (taxe régionale + 13,76 € de taxes fixes) : 228,76 € en Auvergne-Rhône-Alpes et Hauts-de-France, 268,76 € en Pays de la Loire, 303,76 € en Nouvelle-Aquitaine, 313,76 € dans 6 régions métropolitaines à 60 €, 358,76 € en Île-de-France. Tarifs vérifiés le 16/11/2026.",
+  "tags": [
+   "classement",
+   "prixcartegrise",
+   "regions"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "5 CV : le *classement* 2026",
+    "icon": "map",
+    "voice": "Le classement deux mille vingt-six des taxes pour une cinq chevaux.",
+    "kicker": "Taxes 5 CV"
+   },
+   {
+    "type": "list",
+    "title": "Taxes pour une *5 CV*",
+    "items": [
+     "ARA, Hauts-de-France : 228,76 €",
+     "Pays de la Loire : 268,76 €",
+     "Nouvelle-Aquitaine : 303,76 €",
+     "Régions à 60 € : 313,76 €",
+     "Île-de-France : 358,76 €"
+    ],
+    "voice": "Deux cent vingt-huit euros soixante-seize en Auvergne-Rhône-Alpes et Hauts-de-France. Deux cent soixante-huit en Pays de la Loire. Trois cent trois en Nouvelle-Aquitaine. Trois cent treize dans les régions à soixante euros. Trois cent cinquante-huit en Île-de-France."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C100",
+  "category": "pedagogie",
+  "title": "Vendeur 15 jours, acheteur 1 mois",
+  "desc": "Lors d'une vente, deux délais différents : le vendeur a 15 jours pour déclarer la cession, l'acheteur a 1 mois pour faire la carte grise à son nom.",
+  "tags": [
+   "vendresavoiture",
+   "voitureoccasion",
+   "delais"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Deux personnes, *deux délais*",
+    "icon": "swap",
+    "voice": "Lors d'une vente, vendeur et acheteur n'ont pas le même délai.",
+    "kicker": "Vente entre particuliers"
+   },
+   {
+    "type": "versus",
+    "title": null,
+    "left": [
+     "Vendeur",
+     "15 jours pour déclarer la cession"
+    ],
+    "right": [
+     "Acheteur",
+     "1 mois pour la carte grise à son nom"
+    ],
+    "voice": "Le vendeur a quinze jours pour déclarer la cession. L'acheteur a un mois pour faire la carte grise à son nom."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C101",
+  "category": "conversion",
+  "title": "6 CV à Rennes : 423,66 € tout compris",
+  "desc": "Exemple au 16/11/2026 pour le changement de titulaire d'une 6 CV à Rennes (Bretagne, 60 € le cheval) : 360 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service, soit 423,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "rennes",
+   "bretagne"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "6 CV à Rennes : *combien* ?",
+    "icon": "car",
+    "voice": "Une six chevaux à Rennes : combien coûte la carte grise ?",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 360 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Trois cent soixante euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "423,66 €",
+    "label": "Tout compris, *au 16/11/2026*",
+    "icon": "euro",
+    "voice": "Total : quatre cent vingt-trois euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C102",
+  "category": "acquisition",
+  "title": "Rennes ou Nantes ? 45 € d'écart",
+  "desc": "Pour une 5 CV en 2026 : 300 € de taxe régionale à Rennes (Bretagne, 60 € le cheval) contre 255 € à Nantes (Pays de la Loire, 51 € le cheval). Tarifs vérifiés le 16/11/2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "rennes",
+   "nantes",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Rennes ou Nantes : *45 € d'écart*",
+    "icon": "map",
+    "voice": "Rennes ou Nantes ? Quarante-cinq euros d'écart pour la même cinq chevaux.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *5 CV*",
+    "left": [
+     "Rennes",
+     "5 × 60 € = 300 €"
+    ],
+    "right": [
+     "Nantes",
+     "5 × 51 € = 255 €"
+    ],
+    "voice": "Trois cents euros à Rennes, deux cent cinquante-cinq à Nantes."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C103",
+  "category": "pedagogie",
+  "title": "Mythe : voiture chère = carte grise chère",
+  "desc": "Le prix de la carte grise ne dépend pas du prix d'achat de la voiture : il dépend de la puissance fiscale, de la région et de l'âge du véhicule (taxe régionale réduite de 50 % au-delà de 10 ans), hors malus éventuel.",
+  "tags": [
+   "mythe",
+   "prixcartegrise",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Voiture chère = carte grise chère ?",
+    "icon": "question",
+    "voice": "Une voiture chère, c'est forcément une carte grise chère ? Faux.",
+    "kicker": "Vrai ou faux ?"
+   },
+   {
+    "type": "list",
+    "title": "Ce qui compte",
+    "items": [
+     "La puissance fiscale (P.6)",
+     "Votre région",
+     "L'âge du véhicule",
+     "✗ Le prix d'achat"
+    ],
+    "voice": "Ce qui compte : la puissance fiscale, votre région, l'âge du véhicule. Pas le prix d'achat."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C104",
+  "category": "conversion",
+  "title": "5 CV à Nantes : 318,66 € tout compris",
+  "desc": "Exemple au 16/11/2026 pour le changement de titulaire d'une 5 CV à Nantes (Pays de la Loire, 51 € le cheval) : 255 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service, soit 318,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "nantes",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "5 CV à Nantes : *318,66 €*",
+    "icon": "car",
+    "voice": "Une cinq chevaux à Nantes : trois cent dix-huit euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 255 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Deux cent cinquante-cinq euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
  }
 ]
