@@ -1,0 +1,7 @@
+pipeline/__pycache__/
+pipeline/bin/
+pipeline/voices/
+pipeline/out/
+pipeline/tmp/
+pipeline/render.log
+pipeline/new_concepts.json
