@@ -825,8 +825,182 @@ add("C104", "conversion", "5 CV à Nantes : 318,66 € tout compris",
      L("Le détail", ["Taxe régionale : 255 €", "Taxes fixes : 13,76 €", "Frais de service : 49,90 €"], "Deux cent cinquante-cinq euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."),
      CTA()])
 
+# ======================= LOT DU 23/11/2026 (C105-C125) ========================================
+# Tarifs 2026 : pipeline/README.md (cheval fiscal par région, Y.4 11 €, Y.5 2,76 €, abattement 50 % au-delà de 10 ans).
+# Frais de service changement de titulaire : 39,90 € (1-4 CV), 49,90 € (5-7 CV), 59,90 € (8-10 CV).
+# Île-de-France volontairement évitée (écart d'arrondi constaté entre 68,95 € et les exemples du site).
+add("C105", "acquisition", "Lille ou Strasbourg ? 119 € d'écart",
+    "Pour une 7 CV en 2026 : 301 € de taxe régionale à Lille (Hauts-de-France, 43 € le cheval) contre 420 € à Strasbourg (Grand Est, 60 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "lille", "strasbourg", "chevalfiscal"],
+    [H("Lille ou Strasbourg : *119 € d'écart*", "map", "Lille ou Strasbourg ? Pour la même sept chevaux, cent dix-neuf euros d'écart.", "7 CV en 2026"),
+     V("Taxe régionale d'une *7 CV*", ("Strasbourg", "7 × 60 € = 420 €"), ("Lille", "7 × 43 € = 301 €"), "Sept fois soixante euros à Strasbourg, soit quatre cent vingt euros. Sept fois quarante-trois euros à Lille, soit trois cent un."),
+     P("Le prix suit la *région*", "Chaque région fixe le prix du cheval fiscal.", "car", "C'est la région qui fixe le prix du cheval fiscal."),
+     CTA()])
+
+add("C106", "pedagogie", "Quiz : une 9 CV à Dijon ?",
+    "Quiz : combien de taxes pour une 9 CV à Dijon en 2026 ? Bourgogne-Franche-Comté : 60 € le cheval, donc 540 € de taxe régionale, plus 11 € de taxe fixe et 2,76 € d'acheminement : 553,76 € de taxes, hors frais de service.",
+    ["quiz", "prixcartegrise", "dijon"],
+    [H("Quiz : une *9 CV* à Dijon ?", "question", "Quiz. Combien de taxes pour une neuf chevaux à Dijon ?", "À vous de calculer"),
+     P("9 × *60 €*", "Bourgogne-Franche-Comté : 60 € le cheval, soit 540 €.", "map", "Neuf fois soixante euros : cinq cent quarante euros de taxe régionale.", "1"),
+     P("+ *13,76 €*", "Taxe fixe de 11 € et acheminement de 2,76 €.", "doc", "Plus onze euros de taxe fixe et deux euros soixante-seize d'acheminement.", "2"),
+     S("553,76 €", "De taxes, *hors frais de service*", "euro", "Réponse : cinq cent cinquante-trois euros soixante-seize de taxes."),
+     CTA()])
+
+add("C107", "conversion", "5 CV à Lyon : 278,66 € tout compris",
+    "Exemple pour le changement de titulaire d'une 5 CV à Lyon (Auvergne-Rhône-Alpes, 43 € le cheval en 2026) : 215 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 278,66 €.",
+    ["prixcartegrise", "lyon", "changementdetitulaire"],
+    [H("5 CV à Lyon : *278,66 €*", "car", "Une cinq chevaux à Lyon : deux cent soixante-dix-huit euros soixante-six, tout compris.", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 215 €", "Taxes fixes : 13,76 €", "Frais de service : 49,90 €"], "Deux cent quinze euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."),
+     S("278,66 €", "Tout compris, *tarifs 2026*", "euro", "Total : deux cent soixante-dix-huit euros soixante-six."),
+     CTA()])
+
+add("C108", "acquisition", "Nice ou Grenoble ? 136 € d'écart",
+    "Pour une 8 CV en 2026 : 480 € de taxe régionale à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval) contre 344 € à Grenoble (Auvergne-Rhône-Alpes, 43 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "nice", "grenoble", "chevalfiscal"],
+    [H("Nice ou Grenoble : *136 € d'écart*", "map", "Nice ou Grenoble ? Pour une huit chevaux, cent trente-six euros d'écart.", "8 CV en 2026"),
+     S("480 €", "Taxe régionale d'une *8 CV* à Nice", "euro", "À Nice, huit fois soixante euros : quatre cent quatre-vingts euros."),
+     S("344 €", "La même *8 CV* à Grenoble", "euro", "À Grenoble, huit fois quarante-trois euros : trois cent quarante-quatre euros."),
+     CTA()])
+
+add("C109", "pedagogie", "Quiz : une 8 CV de 12 ans à Marseille ?",
+    "Quiz : une 8 CV de 12 ans à Marseille en 2026. Taxe régionale : 8 × 60 € = 480 €, réduite de 50 % au-delà de 10 ans, soit 240 €. Avec 13,76 € de taxes fixes : 253,76 € de taxes, hors frais de service.",
+    ["quiz", "voitureoccasion", "marseille"],
+    [H("Quiz : 8 CV, *12 ans*, Marseille", "question", "Quiz. Une huit chevaux de douze ans, à Marseille. Combien de taxes ?", "À vous de calculer"),
+     P("8 × 60 € = *480 €*", "Provence-Alpes-Côte d'Azur : 60 € le cheval.", "map", "Huit fois soixante euros : quatre cent quatre-vingts euros.", "1"),
+     P("Plus de 10 ans : *-50 %*", "La taxe régionale passe à 240 €.", "calendar", "Plus de dix ans : la taxe régionale est divisée par deux, soit deux cent quarante euros.", "2"),
+     S("253,76 €", "Avec les taxes fixes, *hors frais de service*", "euro", "Avec les taxes fixes : deux cent cinquante-trois euros soixante-seize."),
+     CTA()])
+
+add("C110", "conversion", "7 CV à Strasbourg : 483,66 € tout compris",
+    "Exemple pour le changement de titulaire d'une 7 CV à Strasbourg (Grand Est, 60 € le cheval en 2026) : 420 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 483,66 €.",
+    ["prixcartegrise", "strasbourg", "changementdetitulaire"],
+    [H("7 CV à Strasbourg : *combien* ?", "car", "Une sept chevaux à Strasbourg : combien coûte la carte grise ?", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 420 €", "Taxes fixes : 13,76 €", "Frais de service : 49,90 €"], "Quatre cent vingt euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."),
+     S("483,66 €", "Tout compris, *tarifs 2026*", "euro", "Total : quatre cent quatre-vingt-trois euros soixante-six."),
+     CTA()])
+
+add("C111", "acquisition", "La Réunion ou Mayotte ? 150 € d'écart",
+    "En outre-mer aussi, le prix change d'une île à l'autre : pour une 5 CV en 2026, 300 € de taxe régionale à La Réunion (60 € le cheval) contre 150 € à Mayotte (30 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "lareunion", "mayotte", "outremer"],
+    [H("La Réunion ou Mayotte : *150 € d'écart*", "map", "La Réunion ou Mayotte ? Pour la même cinq chevaux, cent cinquante euros d'écart.", "5 CV en 2026"),
+     V("Taxe régionale d'une *5 CV*", ("La Réunion", "5 × 60 € = 300 €"), ("Mayotte", "5 × 30 € = 150 €"), "Trois cents euros à La Réunion, cent cinquante à Mayotte."),
+     P("Le cheval *le moins cher* de France", "30 € à Mayotte en 2026.", "euro", "À Mayotte, le cheval fiscal est le moins cher de France : trente euros."),
+     CTA()])
+
+add("C112", "pedagogie", "3 pièges quand on calcule sa carte grise",
+    "Trois pièges fréquents : prendre la puissance réelle (case P.2, en kW) au lieu de la puissance fiscale (case P.6), oublier les 13,76 € de taxes fixes (11 € + 2,76 €), et oublier la réduction de 50 % de la taxe régionale au-delà de 10 ans.",
+    ["prixcartegrise", "astuce", "calcul"],
+    [H("*3 pièges* du calcul", "warn", "Trois pièges quand on calcule le prix de sa carte grise.", "Calcul de carte grise"),
+     P("Case *P.2* au lieu de P.6", "Seule la puissance fiscale (P.6) compte.", "doc", "Un : prendre la puissance réelle, case P deux, au lieu de la puissance fiscale, case P six.", "1"),
+     P("Oublier *13,76 €*", "Taxe fixe de 11 € et acheminement de 2,76 €.", "euro", "Deux : oublier les treize euros soixante-seize de taxes fixes.", "2"),
+     P("Oublier le *-50 %*", "Taxe régionale réduite au-delà de 10 ans (case B).", "calendar", "Trois : oublier la réduction de moitié au-delà de dix ans.", "3"),
+     CTA("Un calcul *sans piège*", "Automatique selon votre carte grise", "Calculez votre prix sur cartegrise4x.fr.")])
+
+add("C113", "conversion", "8 CV à Nice : 553,66 € tout compris",
+    "Exemple pour le changement de titulaire d'une 8 CV à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval en 2026) : 480 € de taxe régionale, 13,76 € de taxes fixes et 59,90 € de frais de service CarteGrise4x (tarif 8 à 10 CV), soit 553,66 €.",
+    ["prixcartegrise", "nice", "changementdetitulaire"],
+    [H("8 CV à Nice : *553,66 €*", "car", "Une huit chevaux à Nice : cinq cent cinquante-trois euros soixante-six, tout compris.", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 480 €", "Taxes fixes : 13,76 €", "Frais de service : 59,90 €"], "Quatre cent quatre-vingts euros de taxe régionale, treize euros soixante-seize de taxes fixes, cinquante-neuf euros quatre-vingt-dix de frais de service."),
+     S("553,66 €", "Tout compris, *tarifs 2026*", "euro", "Total : cinq cent cinquante-trois euros soixante-six."),
+     CTA()])
+
+add("C114", "acquisition", "Limoges ou Clermont-Ferrand ? 75 € d'écart",
+    "Pour une 5 CV en 2026 : 290 € de taxe régionale à Limoges (Nouvelle-Aquitaine, 58 € le cheval) contre 215 € à Clermont-Ferrand (Auvergne-Rhône-Alpes, 43 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "limoges", "clermontferrand", "chevalfiscal"],
+    [H("Limoges ou Clermont : *75 € d'écart*", "map", "Limoges ou Clermont-Ferrand ? Soixante-quinze euros d'écart pour la même cinq chevaux.", "5 CV en 2026"),
+     V("Taxe régionale d'une *5 CV*", ("Limoges", "5 × 58 € = 290 €"), ("Clermont-Ferrand", "5 × 43 € = 215 €"), "Deux cent quatre-vingt-dix euros à Limoges, deux cent quinze à Clermont-Ferrand."),
+     CTA()])
+
+add("C115", "pedagogie", "Acheter dans une autre région ne change rien",
+    "La taxe régionale de la carte grise dépend de la région de votre domicile, pas de l'endroit où vous achetez la voiture. Exemple : un Lyonnais qui achète une 5 CV à Marseille paie le tarif d'Auvergne-Rhône-Alpes (43 € le cheval), pas celui de PACA (60 €).",
+    ["prixcartegrise", "voitureoccasion", "astuce"],
+    [H("Acheter *ailleurs*, payer moins ?", "question", "Acheter sa voiture dans une autre région pour payer moins cher la carte grise ? Ça ne marche pas.", "Vrai ou faux ?"),
+     P("Ce qui compte : *votre domicile*", "Le tarif est celui de la région où vous habitez.", "house", "Ce qui compte, c'est la région de votre domicile."),
+     V("Un Lyonnais achète à Marseille", ("Pas celui de", "PACA : 60 €/CV"), ("Tarif payé", "Auvergne-Rhône-Alpes : 43 €/CV"), "Un Lyonnais qui achète à Marseille paie le tarif de sa région : quarante-trois euros le cheval."),
+     CTA()])
+
+add("C116", "conversion", "4 CV à Lille : 225,66 € tout compris",
+    "Exemple pour le changement de titulaire d'une 4 CV à Lille (Hauts-de-France, 43 € le cheval en 2026) : 172 € de taxe régionale, 13,76 € de taxes fixes et 39,90 € de frais de service CarteGrise4x (tarif 1 à 4 CV), soit 225,66 €.",
+    ["prixcartegrise", "lille", "changementdetitulaire"],
+    [H("4 CV à Lille : *225,66 €*", "car", "Une quatre chevaux à Lille : deux cent vingt-cinq euros soixante-six, tout compris.", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 172 €", "Taxes fixes : 13,76 €", "Frais de service : 39,90 €"], "Cent soixante-douze euros de taxe régionale, treize euros soixante-seize de taxes fixes, trente-neuf euros quatre-vingt-dix de frais de service."),
+     S("225,66 €", "Tout compris, *tarifs 2026*", "euro", "Total : deux cent vingt-cinq euros soixante-six."),
+     CTA()])
+
+add("C117", "acquisition", "Montpellier ou Marseille ? 2,50 € d'écart",
+    "Pour une 5 CV en 2026 : 297,50 € de taxe régionale à Montpellier (Occitanie, 59,50 € le cheval) contre 300 € à Marseille (Provence-Alpes-Côte d'Azur, 60 € le cheval). Presque le même prix. Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "montpellier", "marseille", "chevalfiscal"],
+    [H("Montpellier ou Marseille : *2,50 €*", "map", "Montpellier ou Marseille ? Pour une cinq chevaux, deux euros cinquante d'écart seulement.", "5 CV en 2026"),
+     V("Taxe régionale d'une *5 CV*", ("Marseille", "5 × 60 € = 300 €"), ("Montpellier", "5 × 59,50 € = 297,50 €"), "Trois cents euros à Marseille, deux cent quatre-vingt-dix-sept euros cinquante à Montpellier."),
+     P("Presque *le même prix*", "Occitanie et PACA sont proches du plafond de 60 €.", "euro", "Les deux régions sont proches du plafond de soixante euros."),
+     CTA()])
+
+add("C118", "pedagogie", "Même région, même prix",
+    "Lyon, Grenoble ou Clermont-Ferrand : même région, même tarif. En Auvergne-Rhône-Alpes, le cheval fiscal coûte 43 € en 2026, soit 215 € de taxe régionale pour une 5 CV, quelle que soit la ville.",
+    ["prixcartegrise", "auvergnerhonealpes", "chevalfiscal"],
+    [H("Lyon, Grenoble, Clermont : *même prix*", "map", "Lyon, Grenoble ou Clermont-Ferrand : le prix de la carte grise est le même.", "Bon à savoir"),
+     P("Une région, *un tarif*", "Auvergne-Rhône-Alpes : 43 € le cheval en 2026.", "euro", "En Auvergne-Rhône-Alpes, le cheval fiscal coûte quarante-trois euros, partout."),
+     S("215 €", "Taxe régionale d'une *5 CV*, quelle que soit la ville", "car", "Pour une cinq chevaux : deux cent quinze euros, quelle que soit la ville."),
+     CTA()])
+
+add("C119", "conversion", "5 CV à Montpellier : 361,16 € tout compris",
+    "Exemple pour le changement de titulaire d'une 5 CV à Montpellier (Occitanie, 59,50 € le cheval en 2026) : 297,50 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 361,16 €.",
+    ["prixcartegrise", "montpellier", "changementdetitulaire"],
+    [H("5 CV à Montpellier : *combien* ?", "car", "Une cinq chevaux à Montpellier : combien coûte la carte grise ?", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 297,50 €", "Taxes fixes : 13,76 €", "Frais de service : 49,90 €"], "Deux cent quatre-vingt-dix-sept euros cinquante de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."),
+     S("361,16 €", "Tout compris, *tarifs 2026*", "euro", "Total : trois cent soixante et un euros seize."),
+     CTA()])
+
+add("C120", "acquisition", "Tours ou Nantes ? 54 € d'écart",
+    "Pour une 6 CV en 2026 : 360 € de taxe régionale à Tours (Centre-Val de Loire, 60 € le cheval) contre 306 € à Nantes (Pays de la Loire, 51 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "tours", "nantes", "chevalfiscal"],
+    [H("Tours ou Nantes : *54 € d'écart*", "map", "Tours ou Nantes ? Deux villes de la Loire, cinquante-quatre euros d'écart.", "6 CV en 2026"),
+     S("360 €", "Taxe régionale d'une *6 CV* à Tours", "euro", "À Tours, six fois soixante euros : trois cent soixante euros."),
+     S("306 €", "La même *6 CV* à Nantes", "euro", "À Nantes, six fois cinquante et un euros : trois cent six euros."),
+     CTA()])
+
+add("C121", "pedagogie", "-50 % après 10 ans : sur quoi exactement ?",
+    "Au-delà de 10 ans, seule la taxe régionale est réduite de 50 %. La taxe fixe de 11 € et l'acheminement de 2,76 € ne changent pas. Exemple : une 6 CV de 12 ans en Normandie (60 € le cheval) : 180 € + 13,76 € = 193,76 € de taxes, hors frais de service.",
+    ["voitureoccasion", "prixcartegrise", "astuce"],
+    [H("*-50 %* : sur quoi exactement ?", "question", "Voiture de plus de dix ans : moins cinquante pour cent. Mais sur quoi exactement ?", "Voiture de plus de 10 ans"),
+     L("Ce qui change", ["✓ Taxe régionale : -50 %", "✗ Taxe fixe : 11 €", "✗ Acheminement : 2,76 €"], "Seule la taxe régionale est réduite. La taxe fixe et l'acheminement ne changent pas."),
+     S("193,76 €", "6 CV de 12 ans en Normandie, *hors frais de service*", "euro", "Exemple : une six chevaux de douze ans en Normandie, cent quatre-vingt-treize euros soixante-seize de taxes."),
+     CTA()])
+
+add("C122", "conversion", "6 CV de 12 ans à Rouen : 243,66 €",
+    "Exemple pour le changement de titulaire d'une 6 CV de 12 ans à Rouen (Normandie, 60 € le cheval en 2026) : 180 € de taxe régionale après la réduction de 50 %, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 243,66 €.",
+    ["prixcartegrise", "rouen", "voitureoccasion"],
+    [H("6 CV de 12 ans à Rouen : *243,66 €*", "car", "Une six chevaux de douze ans à Rouen : deux cent quarante-trois euros soixante-six, tout compris.", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale -50 % : 180 €", "Taxes fixes : 13,76 €", "Frais de service : 49,90 €"], "Cent quatre-vingts euros de taxe régionale après réduction, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."),
+     S("243,66 €", "Tout compris, *tarifs 2026*", "euro", "Total : deux cent quarante-trois euros soixante-six."),
+     CTA("Votre prix avec *l'âge* du véhicule", "Réduction appliquée automatiquement", "Calculez votre prix sur cartegrise4x.fr.")])
+
+add("C123", "acquisition", "Ajaccio ou Nice ? 42 € d'écart",
+    "Pour une 6 CV en 2026 : 318 € de taxe régionale à Ajaccio (Corse, 53 € le cheval) contre 360 € à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval). Tarifs 2026, hors taxes fixes.",
+    ["prixcartegrise", "ajaccio", "nice", "corse"],
+    [H("Ajaccio ou Nice : *42 € d'écart*", "map", "Ajaccio ou Nice ? Quarante-deux euros d'écart pour la même six chevaux.", "6 CV en 2026"),
+     V("Taxe régionale d'une *6 CV*", ("Nice", "6 × 60 € = 360 €"), ("Ajaccio", "6 × 53 € = 318 €"), "Trois cent soixante euros à Nice, trois cent dix-huit à Ajaccio."),
+     CTA()])
+
+add("C124", "pedagogie", "Quiz : une 3 CV en Guadeloupe ?",
+    "Quiz : combien de taxes pour une 3 CV en Guadeloupe en 2026 ? 3 × 41 € = 123 € de taxe régionale, plus 11 € de taxe fixe et 2,76 € d'acheminement : 136,76 € de taxes, hors frais de service.",
+    ["quiz", "guadeloupe", "outremer"],
+    [H("Quiz : une *3 CV* en Guadeloupe ?", "question", "Quiz. Combien de taxes pour une trois chevaux en Guadeloupe ?", "À vous de calculer"),
+     P("3 × *41 €*", "Guadeloupe : 41 € le cheval, soit 123 €.", "map", "Trois fois quarante et un euros : cent vingt-trois euros.", "1"),
+     P("+ *13,76 €*", "Taxe fixe de 11 € et acheminement de 2,76 €.", "doc", "Plus treize euros soixante-seize de taxes fixes.", "2"),
+     S("136,76 €", "De taxes, *hors frais de service*", "euro", "Réponse : cent trente-six euros soixante-seize."),
+     CTA()])
+
+add("C125", "conversion", "9 CV à Toulouse : 609,16 €, en 1 ou 4 fois",
+    "Exemple pour le changement de titulaire d'une 9 CV à Toulouse (Occitanie, 59,50 € le cheval en 2026) : 535,50 € de taxe régionale, 13,76 € de taxes fixes et 59,90 € de frais de service CarteGrise4x, soit 609,16 €. Paiement en 1 fois, ou en 4 fois avec PayPal ou Klarna, selon éligibilité.",
+    ["prixcartegrise", "toulouse", "paiement4fois"],
+    [H("9 CV à Toulouse : *609,16 €*", "car", "Une neuf chevaux à Toulouse : six cent neuf euros seize, tout compris.", "Changement de titulaire"),
+     L("Le détail", ["Taxe régionale : 535,50 €", "Taxes fixes : 13,76 €", "Frais de service : 59,90 €"], "Cinq cent trente-cinq euros cinquante de taxe régionale, treize euros soixante-seize de taxes fixes, cinquante-neuf euros quatre-vingt-dix de frais de service."),
+     P("En *1 ou 4 fois*", "PayPal ou Klarna, selon éligibilité. Un crédit vous engage et doit être remboursé.", "cards", "Paiement en une fois, ou en quatre fois avec PayPal ou Klarna, selon éligibilité."),
+     CREDIT_CTA()], credit=True)
+
 if __name__ == "__main__":
-    assert len(C) == 104, len(C)
-    assert len({c["id"] for c in C}) == 104
+    assert len(C) == 125, len(C)
+    assert len({c["id"] for c in C}) == 125
     json.dump(C, open("concepts.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter; print(len(C), Counter(c["category"] for c in C))

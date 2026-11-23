@@ -4339,5 +4339,962 @@
     "voice": "Calculez votre prix sur cartegrise4x.fr."
    }
   ]
+ },
+ {
+  "id": "C105",
+  "category": "acquisition",
+  "title": "Lille ou Strasbourg ? 119 € d'écart",
+  "desc": "Pour une 7 CV en 2026 : 301 € de taxe régionale à Lille (Hauts-de-France, 43 € le cheval) contre 420 € à Strasbourg (Grand Est, 60 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "lille",
+   "strasbourg",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Lille ou Strasbourg : *119 € d'écart*",
+    "icon": "map",
+    "voice": "Lille ou Strasbourg ? Pour la même sept chevaux, cent dix-neuf euros d'écart.",
+    "kicker": "7 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *7 CV*",
+    "left": [
+     "Strasbourg",
+     "7 × 60 € = 420 €"
+    ],
+    "right": [
+     "Lille",
+     "7 × 43 € = 301 €"
+    ],
+    "voice": "Sept fois soixante euros à Strasbourg, soit quatre cent vingt euros. Sept fois quarante-trois euros à Lille, soit trois cent un."
+   },
+   {
+    "type": "point",
+    "title": "Le prix suit la *région*",
+    "text": "Chaque région fixe le prix du cheval fiscal.",
+    "icon": "car",
+    "voice": "C'est la région qui fixe le prix du cheval fiscal.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C106",
+  "category": "pedagogie",
+  "title": "Quiz : une 9 CV à Dijon ?",
+  "desc": "Quiz : combien de taxes pour une 9 CV à Dijon en 2026 ? Bourgogne-Franche-Comté : 60 € le cheval, donc 540 € de taxe régionale, plus 11 € de taxe fixe et 2,76 € d'acheminement : 553,76 € de taxes, hors frais de service.",
+  "tags": [
+   "quiz",
+   "prixcartegrise",
+   "dijon"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Quiz : une *9 CV* à Dijon ?",
+    "icon": "question",
+    "voice": "Quiz. Combien de taxes pour une neuf chevaux à Dijon ?",
+    "kicker": "À vous de calculer"
+   },
+   {
+    "type": "point",
+    "title": "9 × *60 €*",
+    "text": "Bourgogne-Franche-Comté : 60 € le cheval, soit 540 €.",
+    "icon": "map",
+    "voice": "Neuf fois soixante euros : cinq cent quarante euros de taxe régionale.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "+ *13,76 €*",
+    "text": "Taxe fixe de 11 € et acheminement de 2,76 €.",
+    "icon": "doc",
+    "voice": "Plus onze euros de taxe fixe et deux euros soixante-seize d'acheminement.",
+    "n": "2"
+   },
+   {
+    "type": "stat",
+    "value": "553,76 €",
+    "label": "De taxes, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Réponse : cinq cent cinquante-trois euros soixante-seize de taxes."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C107",
+  "category": "conversion",
+  "title": "5 CV à Lyon : 278,66 € tout compris",
+  "desc": "Exemple pour le changement de titulaire d'une 5 CV à Lyon (Auvergne-Rhône-Alpes, 43 € le cheval en 2026) : 215 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 278,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "lyon",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "5 CV à Lyon : *278,66 €*",
+    "icon": "car",
+    "voice": "Une cinq chevaux à Lyon : deux cent soixante-dix-huit euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 215 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Deux cent quinze euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "278,66 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : deux cent soixante-dix-huit euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C108",
+  "category": "acquisition",
+  "title": "Nice ou Grenoble ? 136 € d'écart",
+  "desc": "Pour une 8 CV en 2026 : 480 € de taxe régionale à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval) contre 344 € à Grenoble (Auvergne-Rhône-Alpes, 43 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "nice",
+   "grenoble",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Nice ou Grenoble : *136 € d'écart*",
+    "icon": "map",
+    "voice": "Nice ou Grenoble ? Pour une huit chevaux, cent trente-six euros d'écart.",
+    "kicker": "8 CV en 2026"
+   },
+   {
+    "type": "stat",
+    "value": "480 €",
+    "label": "Taxe régionale d'une *8 CV* à Nice",
+    "icon": "euro",
+    "voice": "À Nice, huit fois soixante euros : quatre cent quatre-vingts euros."
+   },
+   {
+    "type": "stat",
+    "value": "344 €",
+    "label": "La même *8 CV* à Grenoble",
+    "icon": "euro",
+    "voice": "À Grenoble, huit fois quarante-trois euros : trois cent quarante-quatre euros."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C109",
+  "category": "pedagogie",
+  "title": "Quiz : une 8 CV de 12 ans à Marseille ?",
+  "desc": "Quiz : une 8 CV de 12 ans à Marseille en 2026. Taxe régionale : 8 × 60 € = 480 €, réduite de 50 % au-delà de 10 ans, soit 240 €. Avec 13,76 € de taxes fixes : 253,76 € de taxes, hors frais de service.",
+  "tags": [
+   "quiz",
+   "voitureoccasion",
+   "marseille"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Quiz : 8 CV, *12 ans*, Marseille",
+    "icon": "question",
+    "voice": "Quiz. Une huit chevaux de douze ans, à Marseille. Combien de taxes ?",
+    "kicker": "À vous de calculer"
+   },
+   {
+    "type": "point",
+    "title": "8 × 60 € = *480 €*",
+    "text": "Provence-Alpes-Côte d'Azur : 60 € le cheval.",
+    "icon": "map",
+    "voice": "Huit fois soixante euros : quatre cent quatre-vingts euros.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "Plus de 10 ans : *-50 %*",
+    "text": "La taxe régionale passe à 240 €.",
+    "icon": "calendar",
+    "voice": "Plus de dix ans : la taxe régionale est divisée par deux, soit deux cent quarante euros.",
+    "n": "2"
+   },
+   {
+    "type": "stat",
+    "value": "253,76 €",
+    "label": "Avec les taxes fixes, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Avec les taxes fixes : deux cent cinquante-trois euros soixante-seize."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C110",
+  "category": "conversion",
+  "title": "7 CV à Strasbourg : 483,66 € tout compris",
+  "desc": "Exemple pour le changement de titulaire d'une 7 CV à Strasbourg (Grand Est, 60 € le cheval en 2026) : 420 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 483,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "strasbourg",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "7 CV à Strasbourg : *combien* ?",
+    "icon": "car",
+    "voice": "Une sept chevaux à Strasbourg : combien coûte la carte grise ?",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 420 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Quatre cent vingt euros de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "483,66 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : quatre cent quatre-vingt-trois euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C111",
+  "category": "acquisition",
+  "title": "La Réunion ou Mayotte ? 150 € d'écart",
+  "desc": "En outre-mer aussi, le prix change d'une île à l'autre : pour une 5 CV en 2026, 300 € de taxe régionale à La Réunion (60 € le cheval) contre 150 € à Mayotte (30 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "lareunion",
+   "mayotte",
+   "outremer"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "La Réunion ou Mayotte : *150 € d'écart*",
+    "icon": "map",
+    "voice": "La Réunion ou Mayotte ? Pour la même cinq chevaux, cent cinquante euros d'écart.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *5 CV*",
+    "left": [
+     "La Réunion",
+     "5 × 60 € = 300 €"
+    ],
+    "right": [
+     "Mayotte",
+     "5 × 30 € = 150 €"
+    ],
+    "voice": "Trois cents euros à La Réunion, cent cinquante à Mayotte."
+   },
+   {
+    "type": "point",
+    "title": "Le cheval *le moins cher* de France",
+    "text": "30 € à Mayotte en 2026.",
+    "icon": "euro",
+    "voice": "À Mayotte, le cheval fiscal est le moins cher de France : trente euros.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C112",
+  "category": "pedagogie",
+  "title": "3 pièges quand on calcule sa carte grise",
+  "desc": "Trois pièges fréquents : prendre la puissance réelle (case P.2, en kW) au lieu de la puissance fiscale (case P.6), oublier les 13,76 € de taxes fixes (11 € + 2,76 €), et oublier la réduction de 50 % de la taxe régionale au-delà de 10 ans.",
+  "tags": [
+   "prixcartegrise",
+   "astuce",
+   "calcul"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*3 pièges* du calcul",
+    "icon": "warn",
+    "voice": "Trois pièges quand on calcule le prix de sa carte grise.",
+    "kicker": "Calcul de carte grise"
+   },
+   {
+    "type": "point",
+    "title": "Case *P.2* au lieu de P.6",
+    "text": "Seule la puissance fiscale (P.6) compte.",
+    "icon": "doc",
+    "voice": "Un : prendre la puissance réelle, case P deux, au lieu de la puissance fiscale, case P six.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "Oublier *13,76 €*",
+    "text": "Taxe fixe de 11 € et acheminement de 2,76 €.",
+    "icon": "euro",
+    "voice": "Deux : oublier les treize euros soixante-seize de taxes fixes.",
+    "n": "2"
+   },
+   {
+    "type": "point",
+    "title": "Oublier le *-50 %*",
+    "text": "Taxe régionale réduite au-delà de 10 ans (case B).",
+    "icon": "calendar",
+    "voice": "Trois : oublier la réduction de moitié au-delà de dix ans.",
+    "n": "3"
+   },
+   {
+    "type": "cta",
+    "big": "Un calcul *sans piège*",
+    "sub": "Automatique selon votre carte grise",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C113",
+  "category": "conversion",
+  "title": "8 CV à Nice : 553,66 € tout compris",
+  "desc": "Exemple pour le changement de titulaire d'une 8 CV à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval en 2026) : 480 € de taxe régionale, 13,76 € de taxes fixes et 59,90 € de frais de service CarteGrise4x (tarif 8 à 10 CV), soit 553,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "nice",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "8 CV à Nice : *553,66 €*",
+    "icon": "car",
+    "voice": "Une huit chevaux à Nice : cinq cent cinquante-trois euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 480 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 59,90 €"
+    ],
+    "voice": "Quatre cent quatre-vingts euros de taxe régionale, treize euros soixante-seize de taxes fixes, cinquante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "553,66 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : cinq cent cinquante-trois euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C114",
+  "category": "acquisition",
+  "title": "Limoges ou Clermont-Ferrand ? 75 € d'écart",
+  "desc": "Pour une 5 CV en 2026 : 290 € de taxe régionale à Limoges (Nouvelle-Aquitaine, 58 € le cheval) contre 215 € à Clermont-Ferrand (Auvergne-Rhône-Alpes, 43 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "limoges",
+   "clermontferrand",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Limoges ou Clermont : *75 € d'écart*",
+    "icon": "map",
+    "voice": "Limoges ou Clermont-Ferrand ? Soixante-quinze euros d'écart pour la même cinq chevaux.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *5 CV*",
+    "left": [
+     "Limoges",
+     "5 × 58 € = 290 €"
+    ],
+    "right": [
+     "Clermont-Ferrand",
+     "5 × 43 € = 215 €"
+    ],
+    "voice": "Deux cent quatre-vingt-dix euros à Limoges, deux cent quinze à Clermont-Ferrand."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C115",
+  "category": "pedagogie",
+  "title": "Acheter dans une autre région ne change rien",
+  "desc": "La taxe régionale de la carte grise dépend de la région de votre domicile, pas de l'endroit où vous achetez la voiture. Exemple : un Lyonnais qui achète une 5 CV à Marseille paie le tarif d'Auvergne-Rhône-Alpes (43 € le cheval), pas celui de PACA (60 €).",
+  "tags": [
+   "prixcartegrise",
+   "voitureoccasion",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Acheter *ailleurs*, payer moins ?",
+    "icon": "question",
+    "voice": "Acheter sa voiture dans une autre région pour payer moins cher la carte grise ? Ça ne marche pas.",
+    "kicker": "Vrai ou faux ?"
+   },
+   {
+    "type": "point",
+    "title": "Ce qui compte : *votre domicile*",
+    "text": "Le tarif est celui de la région où vous habitez.",
+    "icon": "house",
+    "voice": "Ce qui compte, c'est la région de votre domicile.",
+    "n": null
+   },
+   {
+    "type": "versus",
+    "title": "Un Lyonnais achète à Marseille",
+    "left": [
+     "Pas celui de",
+     "PACA : 60 €/CV"
+    ],
+    "right": [
+     "Tarif payé",
+     "Auvergne-Rhône-Alpes : 43 €/CV"
+    ],
+    "voice": "Un Lyonnais qui achète à Marseille paie le tarif de sa région : quarante-trois euros le cheval."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C116",
+  "category": "conversion",
+  "title": "4 CV à Lille : 225,66 € tout compris",
+  "desc": "Exemple pour le changement de titulaire d'une 4 CV à Lille (Hauts-de-France, 43 € le cheval en 2026) : 172 € de taxe régionale, 13,76 € de taxes fixes et 39,90 € de frais de service CarteGrise4x (tarif 1 à 4 CV), soit 225,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "lille",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "4 CV à Lille : *225,66 €*",
+    "icon": "car",
+    "voice": "Une quatre chevaux à Lille : deux cent vingt-cinq euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 172 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 39,90 €"
+    ],
+    "voice": "Cent soixante-douze euros de taxe régionale, treize euros soixante-seize de taxes fixes, trente-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "225,66 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : deux cent vingt-cinq euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C117",
+  "category": "acquisition",
+  "title": "Montpellier ou Marseille ? 2,50 € d'écart",
+  "desc": "Pour une 5 CV en 2026 : 297,50 € de taxe régionale à Montpellier (Occitanie, 59,50 € le cheval) contre 300 € à Marseille (Provence-Alpes-Côte d'Azur, 60 € le cheval). Presque le même prix. Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "montpellier",
+   "marseille",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Montpellier ou Marseille : *2,50 €*",
+    "icon": "map",
+    "voice": "Montpellier ou Marseille ? Pour une cinq chevaux, deux euros cinquante d'écart seulement.",
+    "kicker": "5 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *5 CV*",
+    "left": [
+     "Marseille",
+     "5 × 60 € = 300 €"
+    ],
+    "right": [
+     "Montpellier",
+     "5 × 59,50 € = 297,50 €"
+    ],
+    "voice": "Trois cents euros à Marseille, deux cent quatre-vingt-dix-sept euros cinquante à Montpellier."
+   },
+   {
+    "type": "point",
+    "title": "Presque *le même prix*",
+    "text": "Occitanie et PACA sont proches du plafond de 60 €.",
+    "icon": "euro",
+    "voice": "Les deux régions sont proches du plafond de soixante euros.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C118",
+  "category": "pedagogie",
+  "title": "Même région, même prix",
+  "desc": "Lyon, Grenoble ou Clermont-Ferrand : même région, même tarif. En Auvergne-Rhône-Alpes, le cheval fiscal coûte 43 € en 2026, soit 215 € de taxe régionale pour une 5 CV, quelle que soit la ville.",
+  "tags": [
+   "prixcartegrise",
+   "auvergnerhonealpes",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Lyon, Grenoble, Clermont : *même prix*",
+    "icon": "map",
+    "voice": "Lyon, Grenoble ou Clermont-Ferrand : le prix de la carte grise est le même.",
+    "kicker": "Bon à savoir"
+   },
+   {
+    "type": "point",
+    "title": "Une région, *un tarif*",
+    "text": "Auvergne-Rhône-Alpes : 43 € le cheval en 2026.",
+    "icon": "euro",
+    "voice": "En Auvergne-Rhône-Alpes, le cheval fiscal coûte quarante-trois euros, partout.",
+    "n": null
+   },
+   {
+    "type": "stat",
+    "value": "215 €",
+    "label": "Taxe régionale d'une *5 CV*, quelle que soit la ville",
+    "icon": "car",
+    "voice": "Pour une cinq chevaux : deux cent quinze euros, quelle que soit la ville."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C119",
+  "category": "conversion",
+  "title": "5 CV à Montpellier : 361,16 € tout compris",
+  "desc": "Exemple pour le changement de titulaire d'une 5 CV à Montpellier (Occitanie, 59,50 € le cheval en 2026) : 297,50 € de taxe régionale, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 361,16 €.",
+  "tags": [
+   "prixcartegrise",
+   "montpellier",
+   "changementdetitulaire"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "5 CV à Montpellier : *combien* ?",
+    "icon": "car",
+    "voice": "Une cinq chevaux à Montpellier : combien coûte la carte grise ?",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 297,50 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Deux cent quatre-vingt-dix-sept euros cinquante de taxe régionale, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "361,16 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : trois cent soixante et un euros seize."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C120",
+  "category": "acquisition",
+  "title": "Tours ou Nantes ? 54 € d'écart",
+  "desc": "Pour une 6 CV en 2026 : 360 € de taxe régionale à Tours (Centre-Val de Loire, 60 € le cheval) contre 306 € à Nantes (Pays de la Loire, 51 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "tours",
+   "nantes",
+   "chevalfiscal"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Tours ou Nantes : *54 € d'écart*",
+    "icon": "map",
+    "voice": "Tours ou Nantes ? Deux villes de la Loire, cinquante-quatre euros d'écart.",
+    "kicker": "6 CV en 2026"
+   },
+   {
+    "type": "stat",
+    "value": "360 €",
+    "label": "Taxe régionale d'une *6 CV* à Tours",
+    "icon": "euro",
+    "voice": "À Tours, six fois soixante euros : trois cent soixante euros."
+   },
+   {
+    "type": "stat",
+    "value": "306 €",
+    "label": "La même *6 CV* à Nantes",
+    "icon": "euro",
+    "voice": "À Nantes, six fois cinquante et un euros : trois cent six euros."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C121",
+  "category": "pedagogie",
+  "title": "-50 % après 10 ans : sur quoi exactement ?",
+  "desc": "Au-delà de 10 ans, seule la taxe régionale est réduite de 50 %. La taxe fixe de 11 € et l'acheminement de 2,76 € ne changent pas. Exemple : une 6 CV de 12 ans en Normandie (60 € le cheval) : 180 € + 13,76 € = 193,76 € de taxes, hors frais de service.",
+  "tags": [
+   "voitureoccasion",
+   "prixcartegrise",
+   "astuce"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "*-50 %* : sur quoi exactement ?",
+    "icon": "question",
+    "voice": "Voiture de plus de dix ans : moins cinquante pour cent. Mais sur quoi exactement ?",
+    "kicker": "Voiture de plus de 10 ans"
+   },
+   {
+    "type": "list",
+    "title": "Ce qui change",
+    "items": [
+     "✓ Taxe régionale : -50 %",
+     "✗ Taxe fixe : 11 €",
+     "✗ Acheminement : 2,76 €"
+    ],
+    "voice": "Seule la taxe régionale est réduite. La taxe fixe et l'acheminement ne changent pas."
+   },
+   {
+    "type": "stat",
+    "value": "193,76 €",
+    "label": "6 CV de 12 ans en Normandie, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Exemple : une six chevaux de douze ans en Normandie, cent quatre-vingt-treize euros soixante-seize de taxes."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C122",
+  "category": "conversion",
+  "title": "6 CV de 12 ans à Rouen : 243,66 €",
+  "desc": "Exemple pour le changement de titulaire d'une 6 CV de 12 ans à Rouen (Normandie, 60 € le cheval en 2026) : 180 € de taxe régionale après la réduction de 50 %, 13,76 € de taxes fixes et 49,90 € de frais de service CarteGrise4x, soit 243,66 €.",
+  "tags": [
+   "prixcartegrise",
+   "rouen",
+   "voitureoccasion"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "6 CV de 12 ans à Rouen : *243,66 €*",
+    "icon": "car",
+    "voice": "Une six chevaux de douze ans à Rouen : deux cent quarante-trois euros soixante-six, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale -50 % : 180 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 49,90 €"
+    ],
+    "voice": "Cent quatre-vingts euros de taxe régionale après réduction, treize euros soixante-seize de taxes fixes, quarante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "stat",
+    "value": "243,66 €",
+    "label": "Tout compris, *tarifs 2026*",
+    "icon": "euro",
+    "voice": "Total : deux cent quarante-trois euros soixante-six."
+   },
+   {
+    "type": "cta",
+    "big": "Votre prix avec *l'âge* du véhicule",
+    "sub": "Réduction appliquée automatiquement",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C123",
+  "category": "acquisition",
+  "title": "Ajaccio ou Nice ? 42 € d'écart",
+  "desc": "Pour une 6 CV en 2026 : 318 € de taxe régionale à Ajaccio (Corse, 53 € le cheval) contre 360 € à Nice (Provence-Alpes-Côte d'Azur, 60 € le cheval). Tarifs 2026, hors taxes fixes.",
+  "tags": [
+   "prixcartegrise",
+   "ajaccio",
+   "nice",
+   "corse"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Ajaccio ou Nice : *42 € d'écart*",
+    "icon": "map",
+    "voice": "Ajaccio ou Nice ? Quarante-deux euros d'écart pour la même six chevaux.",
+    "kicker": "6 CV en 2026"
+   },
+   {
+    "type": "versus",
+    "title": "Taxe régionale d'une *6 CV*",
+    "left": [
+     "Nice",
+     "6 × 60 € = 360 €"
+    ],
+    "right": [
+     "Ajaccio",
+     "6 × 53 € = 318 €"
+    ],
+    "voice": "Trois cent soixante euros à Nice, trois cent dix-huit à Ajaccio."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C124",
+  "category": "pedagogie",
+  "title": "Quiz : une 3 CV en Guadeloupe ?",
+  "desc": "Quiz : combien de taxes pour une 3 CV en Guadeloupe en 2026 ? 3 × 41 € = 123 € de taxe régionale, plus 11 € de taxe fixe et 2,76 € d'acheminement : 136,76 € de taxes, hors frais de service.",
+  "tags": [
+   "quiz",
+   "guadeloupe",
+   "outremer"
+  ],
+  "credit": false,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "Quiz : une *3 CV* en Guadeloupe ?",
+    "icon": "question",
+    "voice": "Quiz. Combien de taxes pour une trois chevaux en Guadeloupe ?",
+    "kicker": "À vous de calculer"
+   },
+   {
+    "type": "point",
+    "title": "3 × *41 €*",
+    "text": "Guadeloupe : 41 € le cheval, soit 123 €.",
+    "icon": "map",
+    "voice": "Trois fois quarante et un euros : cent vingt-trois euros.",
+    "n": "1"
+   },
+   {
+    "type": "point",
+    "title": "+ *13,76 €*",
+    "text": "Taxe fixe de 11 € et acheminement de 2,76 €.",
+    "icon": "doc",
+    "voice": "Plus treize euros soixante-seize de taxes fixes.",
+    "n": "2"
+   },
+   {
+    "type": "stat",
+    "value": "136,76 €",
+    "label": "De taxes, *hors frais de service*",
+    "icon": "euro",
+    "voice": "Réponse : cent trente-six euros soixante-seize."
+   },
+   {
+    "type": "cta",
+    "big": "Calculez le prix de votre *carte grise*",
+    "sub": "Tarif de votre département, tout compris",
+    "voice": "Calculez votre prix sur cartegrise4x.fr."
+   }
+  ]
+ },
+ {
+  "id": "C125",
+  "category": "conversion",
+  "title": "9 CV à Toulouse : 609,16 €, en 1 ou 4 fois",
+  "desc": "Exemple pour le changement de titulaire d'une 9 CV à Toulouse (Occitanie, 59,50 € le cheval en 2026) : 535,50 € de taxe régionale, 13,76 € de taxes fixes et 59,90 € de frais de service CarteGrise4x, soit 609,16 €. Paiement en 1 fois, ou en 4 fois avec PayPal ou Klarna, selon éligibilité.",
+  "tags": [
+   "prixcartegrise",
+   "toulouse",
+   "paiement4fois"
+  ],
+  "credit": true,
+  "scenes": [
+   {
+    "type": "hook",
+    "big": "9 CV à Toulouse : *609,16 €*",
+    "icon": "car",
+    "voice": "Une neuf chevaux à Toulouse : six cent neuf euros seize, tout compris.",
+    "kicker": "Changement de titulaire"
+   },
+   {
+    "type": "list",
+    "title": "Le détail",
+    "items": [
+     "Taxe régionale : 535,50 €",
+     "Taxes fixes : 13,76 €",
+     "Frais de service : 59,90 €"
+    ],
+    "voice": "Cinq cent trente-cinq euros cinquante de taxe régionale, treize euros soixante-seize de taxes fixes, cinquante-neuf euros quatre-vingt-dix de frais de service."
+   },
+   {
+    "type": "point",
+    "title": "En *1 ou 4 fois*",
+    "text": "PayPal ou Klarna, selon éligibilité. Un crédit vous engage et doit être remboursé.",
+    "icon": "cards",
+    "voice": "Paiement en une fois, ou en quatre fois avec PayPal ou Klarna, selon éligibilité.",
+    "n": null
+   },
+   {
+    "type": "cta",
+    "big": "Payez en *1 ou 4 fois*",
+    "sub": "PayPal ou Klarna, selon éligibilité",
+    "voice": "Calculez votre prix sur cartegrise4x.fr. Paiement en quatre fois selon éligibilité. Un crédit vous engage et doit être remboursé."
+   }
+  ]
  }
 ]
